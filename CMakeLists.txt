@@ -26,7 +26,7 @@ endif()
 
 set(CMAKE_C_STANDARD 99)
 
-set(CMAKE_C_FLAGS_DEBUG   "-O0 -g -Wall -Wextra -pedantic -DDEBUG")
+set(CMAKE_C_FLAGS_DEBUG   "-O0 -g -Wall -Wextra -Wpedantic -DDEBUG")
 set(CMAKE_C_FLAGS_RELEASE "-O2 -DNDEBUG")
 
 add_subdirectory(src/)
