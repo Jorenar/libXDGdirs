@@ -1,7 +1,7 @@
 libXDGdirs
 ==========
 
-An implemetation of [XDG Base Directory Specification](https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html) (_XDGBDS_)
+An implementation of [XDG Base Directory Specification](https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html) (_XDGBDS_)
 
 _XDGBDS_ defines four categories of dotfiles and the corresponding directories in a users
 home directory that should be used for those. The categories are cache,
