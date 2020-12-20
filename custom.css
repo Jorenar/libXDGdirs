@@ -1,0 +1,67 @@
+body {
+  filter: invert(0.85) grayscale(0.7) contrast(1.2); /* Poor man's dark theme */
+  background-color: #1a1a1a;
+}
+
+#MSearchBox {
+  background: #3e3e3e;
+}
+
+#MSearchBox > input {
+  color: #999;
+}
+
+.MSearchBoxActive #MSearchField {
+  color: white;
+}
+
+.memdoc, dl.reflist dd,
+.memproto, dl.reflist dt {
+  background-image: none !important;
+  box-shadow: none !important;
+}
+
+.sm-dox {
+  background-image: none !important;
+  background-color: #dfdfdf;
+}
+
+.footer > a[href="http://www.doxygen.org/index.html"] {
+  filter: invert(1);
+}
+
+/* uncomment if light theme
+div#main-nav {
+  border-bottom: 1px solid #5373B4;
+}
+*/
+
+.navpath ul {
+  background-image: none !important;
+}
+
+div.fragment {
+  padding: 1em;
+}
+
+div.line {
+  min-height: 1.2em;
+}
+
+span.mlabel {
+  font-size: 1.01em;
+}
+
+code {
+  background-color: #EEE;
+  padding: 0 0.1em;
+}
+
+p {
+  max-width: 100ch;
+  text-align: justify;
+}
+
+td.mdescRight {
+  padding-top: 0.3em;
+}
