@@ -26,7 +26,7 @@ body {
   background-color: #dfdfdf;
 }
 
-.footer > a[href="http://www.doxygen.org/index.html"] {
+img {
   filter: invert(1);
 }
 
