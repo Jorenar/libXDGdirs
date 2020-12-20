@@ -34,7 +34,7 @@ if(DOXYGEN_FOUND)
   set(DOXYGEN_EXPAND_AS_DEFINED  DOXYGEN_UNNAMED)
   set(DOXYGEN_MACRO_EXPANSION    YES)
 
-  doxygen_add_docs(doc ${CMAKE_SOURCE_DIR} ALL)
+  doxygen_add_docs(docs ${CMAKE_SOURCE_DIR} ALL)
 
 else(DOXYGEN_FOUND)
   message("Doxygen needs to be installed to generate documentation")
