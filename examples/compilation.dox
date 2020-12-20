@@ -1,0 +1,3 @@
+/// @example compilation.dox
+/// Compile your program passining @c -lXDGdirs
+gcc main.c -o app -lXDGdirs
