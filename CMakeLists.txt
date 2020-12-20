@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.16)
 
 project(libXDGdirs
-  VERSION 1.0.0
+  VERSION 1.0.1
   LANGUAGES C)
 
 set(LIB_NAME "XDGdirs")
