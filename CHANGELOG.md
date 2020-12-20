@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- LGTM configuration
+
+### Changed
+
+- Cosmetic change from `-pedantic` compiler flag to `-Wpedantic`
+
+### Fixed
+
+- Check if `fmt` in `xdgDirs_getenv()` is `NULL`
+
 ## [1.0.0] - 2020-12-20
 
 ### Added

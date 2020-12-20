@@ -31,6 +31,10 @@ static void xdgDirs_getenv(const char** ptr, const char* var, const char* fmt, .
         return;
     }
 
+    if (fmt == NULL) {
+        *ptr == NULL;
+    }
+
     va_list ap;
     va_start(ap, fmt);
 
