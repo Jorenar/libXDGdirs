@@ -4,9 +4,9 @@ project(libXDGdirs
   VERSION 1.0.1
   LANGUAGES C)
 
-set(LIB_NAME "XDGdirs")
+set(XDGDIRS "XDGdirs")
 
-add_definitions(-DXDGDIRS_VER="${CMAKE_PROJECT_VERSION}")
+add_definitions(-DXDGDIRS_VER="${PROJECT_VERSION}")
 
 set(CMAKE_DISABLE_SOURCE_CHANGES  ON)
 set(CMAKE_DISABLE_IN_SOURCE_BUILD ON)
@@ -36,4 +36,4 @@ if(CMAKE_BUILD_TYPE STREQUAL "Debug")
   add_subdirectory(examples/)
 endif()
 
-install(TARGETS "${LIB_NAME}")
+install(TARGETS "${XDGDIRS}")
