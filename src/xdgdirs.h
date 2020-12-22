@@ -22,13 +22,13 @@ extern "C" {
 #define XDGBDS_VER "0.7"
 
 /// @brief Container for environment variables which are colon separated lists
-struct xdgDirsList {
+struct xdgDirsList_t {
     const char*  raw;  ///< Raw value of environment variable
     const char** list; ///< Null terminated array containing entries from environment variable
     size_t size;       ///< Number of entries in environment variable
 };
 
-typedef const struct xdgDirsList xdgDirsList;
+typedef const struct xdgDirsList_t xdgDirsList;
 
 /// @defgroup CACHE_MANAGEMENT Data cache management
 /// @{
@@ -106,7 +106,7 @@ const char* xdgRuntimeDir();
  *    in addition to the @c $XDG_DATA_HOME base directory
  *
  *    See lists.c for example
- *  @return pointer to struct xdgDirsList
+ *  @return pointer to `const struct xdgDirsList_t`
  */
 xdgDirsList* xdgDataDirs();
 
@@ -114,7 +114,7 @@ xdgDirsList* xdgDataDirs();
  *  @details
  *    Preference-ordered set of base directories to search for configuration
  *    files in addition to the @c $XDG_CONFIG_HOME base directory
- *  @return pointer to struct xdgDirsList
+ *  @return pointer to `const struct xdgDirsList_t`
  */
 xdgDirsList* xdgConfigDirs();
 

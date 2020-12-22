@@ -47,7 +47,7 @@ static void xdgDirs_getenv(const char** ptr, const char* var, const char* fmt, .
     va_end(ap);
 }
 
-static void xdgDirs_free(const char** str, struct xdgDirsList* li)
+static void xdgDirs_free(const char** str, struct xdgDirsList_t* li)
 {
     if (str && *str) {
         free((void*)(*str));
@@ -63,7 +63,7 @@ static void xdgDirs_free(const char** str, struct xdgDirsList* li)
     }
 }
 
-static void xdgDirs_genList(struct xdgDirsList* li)
+static void xdgDirs_genList(struct xdgDirsList_t* li)
 {
     li->size = 1;
     char* raw = (char*)xdgDirs_strdup(li->raw);
@@ -113,8 +113,8 @@ static struct DOXYGEN_UNNAMED {
         const char* runtime; ///< @c $XDG_RUNTIME_DIR
     } user; ///< User directories
     struct /* system */ {
-        struct xdgDirsList data;   ///< @c $XDG_DATA_DIRS
-        struct xdgDirsList config; ///< @c $XDG_CONFIG_DIRS
+        struct xdgDirsList_t data;   ///< @c $XDG_DATA_DIRS
+        struct xdgDirsList_t config; ///< @c $XDG_CONFIG_DIRS
     } system; ///< System directories
 } xdgDirs_cache = { .initialized = 0 };
 
