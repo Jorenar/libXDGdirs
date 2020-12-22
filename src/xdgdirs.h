@@ -1,6 +1,10 @@
 #ifndef XDGDIRS_H_
 #define XDGDIRS_H_
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 #include <stddef.h>
 
 /** @def XDGDIRS_VER
@@ -126,5 +130,9 @@ xdgDirsList* xdgConfigDirs();
 const char* xdgCustomVar(const char* custom);
 
 /// @}
+
+#ifdef __cplusplus
+} // extern "C"
+#endif
 
 #endif // XDGDIRS_H_
