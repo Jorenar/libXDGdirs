@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.3] - 2020-12-22
+
 ### Changed
 
 - Use `vsnprintf()` in `xdgDirs_getenv()`
@@ -14,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 - Return from `xdgDirs_getenv()` after assigning `NULL`
+- Missing `extern C`
 
 ## [1.0.2] - 2020-12-21
 
@@ -53,7 +56,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Documentation
 - README, CHANGELOG and AUTHORS
 
-[unreleased]: https://github.com/Jorengarenar/libXDGdirs/compare/v1.0.2...HEAD
+[unreleased]: https://github.com/Jorengarenar/libXDGdirs/compare/v1.0.3...HEAD
+[1.0.3]: https://github.com/Jorengarenar/libXDGdirs/compare/v1.0.2...v1.0.3
 [1.0.2]: https://github.com/Jorengarenar/libXDGdirs/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/Jorengarenar/libXDGdirs/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/Jorengarenar/libXDGdirs/releases/tag/v1.0.0
