@@ -7,9 +7,11 @@ libXDGdirs
 [![Doxygen](https://github.com/Jorengarenar/libXDGdirs/workflows/Doxygen/badge.svg)](https://github.com/Jorengarenar/libXDGdirs/actions?query=workflow%3ADoxygen)
 [![Language grade: C/C++](https://img.shields.io/lgtm/grade/cpp/g/Jorengarenar/libXDGdirs.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Jorengarenar/libXDGdirs/context:cpp)
 [![CodeFactor](https://www.codefactor.io/repository/github/jorengarenar/libxdgdirs/badge)](https://www.codefactor.io/repository/github/jorengarenar/libxdgdirs)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/github/license/Jorengarenar/libXDGdirs)](https://github.com/Jorengarenar/libXDGdirs/blob/master/LICENSE)
+[![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/Jorengarenar/libXDGdirs?include_prereleases&sort=semver)](https://github.com/Jorengarenar/libXDGdirs/releases)
+[![AUR version](https://img.shields.io/aur/version/libxdgdirs)](https://aur.archlinux.org/packages/libxdgdirs)
 
-An implementation of [XDG Base Directory Specification](https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html) (_XDGBDS_)
+An implementation of [XDG Base Directory Specification](https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html)
 
 _XDGBDS_ defines four categories of dotfiles and the corresponding directories in a users
 home directory that should be used for those. The categories are cache,
