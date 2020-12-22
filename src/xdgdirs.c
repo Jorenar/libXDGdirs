@@ -39,7 +39,7 @@ static void xdgDirs_getenv(const char** ptr, const char* var, const char* fmt, .
     va_start(ap, fmt);
 
     char fallback[BUFSIZ];
-    vsprintf(fallback, fmt, ap);
+    vsnprintf(fallback, BUFSIZ, fmt, ap);
 
     *ptr = (fallback[0] == '/' ? xdgDirs_strdup(fallback) : NULL);
 

@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Use `vsnprintf()` in `xdgDirs_getenv()`
+
 ## [1.0.2] - 2020-12-21
 
 ### Added
@@ -45,7 +49,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Documentation
 - README, CHANGELOG and AUTHORS
 
-[unreleased]: https://github.com/Jorengarenar/libXDGdirs/compare/v1.0.0...HEAD
+[unreleased]: https://github.com/Jorengarenar/libXDGdirs/compare/v1.0.2...HEAD
 [1.0.2]: https://github.com/Jorengarenar/libXDGdirs/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/Jorengarenar/libXDGdirs/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/Jorengarenar/libXDGdirs/releases/tag/v1.0.0
