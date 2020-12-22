@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['xdgdirslist_52',['xdgDirsList',['../xdgdirs_8h.html#aa41a7a484c98cada288c765b0176e225',1,'xdgdirs.h']]]
+  ['xdgdirslist_53',['xdgDirsList',['../xdgdirs_8h.html#a682ed7e50a1285f00448b8008b6b896b',1,'xdgdirs.h']]]
 ];

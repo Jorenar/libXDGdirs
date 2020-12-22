@@ -95,10 +95,10 @@ $(document).ready(function(){initNavTree('group__SYS__DIRS.html',''); initResiza
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gabb5da0e75d6bea948c331423453c72e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structxdgDirsList.html">xdgDirsList</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SYS__DIRS.html#gabb5da0e75d6bea948c331423453c72e8">xdgDataDirs</a> ()</td></tr>
+<tr class="memitem:gabb5da0e75d6bea948c331423453c72e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="xdgdirs_8h.html#a682ed7e50a1285f00448b8008b6b896b">xdgDirsList</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SYS__DIRS.html#gabb5da0e75d6bea948c331423453c72e8">xdgDataDirs</a> ()</td></tr>
 <tr class="memdesc:gabb5da0e75d6bea948c331423453c72e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of <code>$XDG_DATA_DIRS</code>.  <a href="group__SYS__DIRS.html#gabb5da0e75d6bea948c331423453c72e8">More...</a><br /></td></tr>
 <tr class="separator:gabb5da0e75d6bea948c331423453c72e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8948fadf7b7e7395f3ee526f95476086"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structxdgDirsList.html">xdgDirsList</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SYS__DIRS.html#ga8948fadf7b7e7395f3ee526f95476086">xdgConfigDirs</a> ()</td></tr>
+<tr class="memitem:ga8948fadf7b7e7395f3ee526f95476086"><td class="memItemLeft" align="right" valign="top"><a class="el" href="xdgdirs_8h.html#a682ed7e50a1285f00448b8008b6b896b">xdgDirsList</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SYS__DIRS.html#ga8948fadf7b7e7395f3ee526f95476086">xdgConfigDirs</a> ()</td></tr>
 <tr class="memdesc:ga8948fadf7b7e7395f3ee526f95476086"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of <code>$XDG_CONFIG_DIRS</code>.  <a href="group__SYS__DIRS.html#ga8948fadf7b7e7395f3ee526f95476086">More...</a><br /></td></tr>
 <tr class="separator:ga8948fadf7b7e7395f3ee526f95476086"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -111,14 +111,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structxdgDirsList.html">xdgDirsList</a>* xdgConfigDirs </td>
+          <td class="memname"><a class="el" href="xdgdirs_8h.html#a682ed7e50a1285f00448b8008b6b896b">xdgDirsList</a>* xdgConfigDirs </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Preference-ordered set of base directories to search for configuration files in addition to the <code>$XDG_CONFIG_HOME</code> base directory </p><dl class="section return"><dt>Returns</dt><dd>pointer to struct <a class="el" href="structxdgDirsList.html" title="Container for environment variables which are colon separated lists.">xdgDirsList</a> </dd></dl>
+<p>Preference-ordered set of base directories to search for configuration files in addition to the <code>$XDG_CONFIG_HOME</code> base directory </p><dl class="section return"><dt>Returns</dt><dd>pointer to <code>const struct <a class="el" href="structxdgDirsList__t.html" title="Container for environment variables which are colon separated lists.">xdgDirsList_t</a></code> </dd></dl>
 <dl class="section examples"><dt>Examples</dt><dd><a class="el" href="lists_8c-example.html#a5">lists.c</a>, and <a class="el" href="print_8c-example.html#a5">print.c</a>.</dd>
 </dl>
 
@@ -131,7 +131,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structxdgDirsList.html">xdgDirsList</a>* xdgDataDirs </td>
+          <td class="memname"><a class="el" href="xdgdirs_8h.html#a682ed7e50a1285f00448b8008b6b896b">xdgDirsList</a>* xdgDataDirs </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -139,7 +139,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Preference-ordered set of base directories to search for data files in addition to the <code>$XDG_DATA_HOME</code> base directory</p>
-<p>See <a class="el" href="lists_8c.html">lists.c</a> for example </p><dl class="section return"><dt>Returns</dt><dd>pointer to struct <a class="el" href="structxdgDirsList.html" title="Container for environment variables which are colon separated lists.">xdgDirsList</a> </dd></dl>
+<p>See <a class="el" href="lists_8c.html">lists.c</a> for example </p><dl class="section return"><dt>Returns</dt><dd>pointer to <code>const struct <a class="el" href="structxdgDirsList__t.html" title="Container for environment variables which are colon separated lists.">xdgDirsList_t</a></code> </dd></dl>
 <dl class="section examples"><dt>Examples</dt><dd><a class="el" href="lists_8c-example.html#a1">lists.c</a>, and <a class="el" href="print_8c-example.html#a4">print.c</a>.</dd>
 </dl>
 

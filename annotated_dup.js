@@ -1,4 +1,4 @@
 var annotated_dup =
 [
-    [ "xdgDirsList", "structxdgDirsList.html", "structxdgDirsList" ]
+    [ "xdgDirsList_t", "structxdgDirsList__t.html", "structxdgDirsList__t" ]
 ];

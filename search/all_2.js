@@ -1,6 +1,6 @@
 var searchData=
 [
   ['libxdgdirs_5',['libXDGdirs',['../index.html',1,'']]],
-  ['list_6',['list',['../structxdgDirsList.html#a99f020959869c8321d89cf9eae68bae3',1,'xdgDirsList']]],
+  ['list_6',['list',['../structxdgDirsList__t.html#a25ff8c19ed66a713a8723ed5602c3228',1,'xdgDirsList_t']]],
   ['lists_2ec_7',['lists.c',['../lists_8c.html',1,'']]]
 ];

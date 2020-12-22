@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['xdgdirslist_30',['xdgDirsList',['../structxdgDirsList.html',1,'']]]
+  ['xdgdirslist_5ft_31',['xdgDirsList_t',['../structxdgDirsList__t.html',1,'']]]
 ];

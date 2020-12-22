@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['raw_50',['raw',['../structxdgDirsList.html#a38bbc6e70f2431c334eb4b54b0da24df',1,'xdgDirsList']]]
+  ['raw_51',['raw',['../structxdgDirsList__t.html#a92dbe4ee69a22e26818cf4c06c800680',1,'xdgDirsList_t']]]
 ];

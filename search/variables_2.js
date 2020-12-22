@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['size_51',['size',['../structxdgDirsList.html#a0c7c31ccfb33aa19eb3fcefab5346173',1,'xdgDirsList']]]
+  ['size_52',['size',['../structxdgDirsList__t.html#a5cede8325a3046b6418934e339796221',1,'xdgDirsList_t']]]
 ];

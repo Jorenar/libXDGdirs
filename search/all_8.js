@@ -12,6 +12,7 @@ var searchData=
   ['xdgdirs_5finit_25',['xdgDirs_init',['../group__CACHE__MANAGEMENT.html#ga605d574d9851ff35a31cb3fee8369d96',1,'xdgdirs.h']]],
   ['xdgdirs_5frefresh_26',['xdgDirs_refresh',['../group__CACHE__MANAGEMENT.html#gade3f58727eaa604338cea4064433d5c9',1,'xdgdirs.h']]],
   ['xdgdirs_5fver_27',['XDGDIRS_VER',['../xdgdirs_8h.html#a603b85bd9bb84acd8b6ea048faea0cea',1,'xdgdirs.h']]],
-  ['xdgdirslist_28',['xdgDirsList',['../structxdgDirsList.html',1,'xdgDirsList'],['../xdgdirs_8h.html#aa41a7a484c98cada288c765b0176e225',1,'xdgDirsList():&#160;xdgdirs.h']]],
-  ['xdgruntimedir_29',['xdgRuntimeDir',['../group__USER__DIRS.html#ga61f0ba263c4ef86f76ea36f79b5e81a6',1,'xdgdirs.h']]]
+  ['xdgdirslist_28',['xdgDirsList',['../xdgdirs_8h.html#a682ed7e50a1285f00448b8008b6b896b',1,'xdgdirs.h']]],
+  ['xdgdirslist_5ft_29',['xdgDirsList_t',['../structxdgDirsList__t.html',1,'']]],
+  ['xdgruntimedir_30',['xdgRuntimeDir',['../group__USER__DIRS.html#ga61f0ba263c4ef86f76ea36f79b5e81a6',1,'xdgdirs.h']]]
 ];
