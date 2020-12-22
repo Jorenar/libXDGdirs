@@ -31,8 +31,9 @@ static void xdgDirs_getenv(const char** ptr, const char* var, const char* fmt, .
         return;
     }
 
-    if (fmt == NULL) {
+    if (fmt == NULL || fmt[0] == '\0') {
         *ptr = NULL;
+        return;
     }
 
     va_list ap;
@@ -154,7 +155,7 @@ void xdgDirs_init()
     xdgDirs_getenv(&xdgDirs_cache.user.data,    "XDG_DATA_HOME",   "%s%s", home, "/.local/share");
     xdgDirs_getenv(&xdgDirs_cache.user.config,  "XDG_CONFIG_HOME", "%s%s", home, "/.config");
     xdgDirs_getenv(&xdgDirs_cache.user.cache,   "XDG_CACHE_HOME",  "%s%s", home, "/.cache");
-    xdgDirs_getenv(&xdgDirs_cache.user.runtime, "XDG_RUNTIME_DIR", NULL);
+    xdgDirs_getenv(&xdgDirs_cache.user.runtime, "XDG_RUNTIME_DIR", "");
 
     xdgDirs_getenv(&xdgDirs_cache.system.data.raw, "XDG_DATA_DIRS", "/usr/local/share:/usr/share");
     xdgDirs_genList(&xdgDirs_cache.system.data);

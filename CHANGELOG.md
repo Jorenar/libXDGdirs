@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Use `vsnprintf()` in `xdgDirs_getenv()`
 
+### Fixed
+
+- Return from `xdgDirs_getenv()` after assigning `NULL`
+
 ## [1.0.2] - 2020-12-21
 
 ### Added
