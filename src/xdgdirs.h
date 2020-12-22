@@ -11,12 +11,8 @@ extern "C" {
  *  @brief Version of libXDGdirs
  *  @details
  *    Adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html)
- *
- *    Is set by build system
  */
-#ifdef DOXYGEN
-# define XDGDIRS_VER "MAJOR.MINOR.PATCH"
-#endif
+#define XDGDIRS_VER "1.0.4"
 
 /// Version of XDG Base Directory specification implemented in this library
 #define XDGBDS_VER "0.7"
