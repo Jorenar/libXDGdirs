@@ -1,12 +1,15 @@
 cmake_minimum_required(VERSION 3.16)
 
+# Get version from src/xdgdirs.h
+file(READ src/xdgdirs.h foo)
+string(REGEX MATCH "#define XDGDIRS_VER \"([0-9]+.[0-9]+.[0-9]+)\"" _ "${foo}")
+set(XDGDIRS_VER "${CMAKE_MATCH_1}")
+
 project(libXDGdirs
-  VERSION 1.0.4
+  VERSION "${XDGDIRS_VER}"
   LANGUAGES C)
 
 set(XDGDIRS "XDGdirs")
-
-add_definitions(-DXDGDIRS_VER="${PROJECT_VERSION}")
 
 set(CMAKE_DISABLE_SOURCE_CHANGES  ON)
 set(CMAKE_DISABLE_IN_SOURCE_BUILD ON)
