@@ -48,17 +48,17 @@ cmake --install build/
 
 Generated with [Doxygen](https://www.doxygen.nl)
 
-**WARNING!** [Documentation](https://joren.ga/libXDGdirs) available
+**WARNING!** [Documentation](https://jorengarenar.github.io/libXDGdirs) available
 online uses latest commit, not release!
 
 # Usage
 
-Refer to [modules](https://joren.ga/libXDGdirs/modules.html) and
-[examples](https://joren.ga/libXDGdirs/examples.html) in [documentation](https://joren.ga/libXDGdirs)
+Refer to [modules](https://jorengarenar.github.io/libXDGdirs/modules.html) and
+[examples](https://jorengarenar.github.io/libXDGdirs/examples.html) in [documentation](https://joren.ga/libXDGdirs)
 # Read more
 
 * [XDG Base Directory Specification](https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html)
 * [XDG Base Directory - ArchWiki](https://wiki.archlinux.org/index.php/XDG_Base_Directory)
 * [XDGBaseDirectorySpecification - Debian Wiki](https://wiki.debian.org/XDGBaseDirectorySpecification)
 * [r/XDG](https://www.reddit.com/r/XDG)
-* [Jorengarenar's blog posts on topic](https://blog.joren.ga/tags/#xdg)
+* [Jorengarenar's blog posts on topic](https://jorengarenar.github.io/blog/tags/#xdg)
