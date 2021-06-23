@@ -4,7 +4,6 @@ libXDGdirs
 [![Build Status](https://travis-ci.com/Jorengarenar/libXDGdirs.svg?branch=master)](https://travis-ci.com/Jorengarenar/libXDGdirs)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/547fc2ec9e314ad593c14d84a7d4fab5)](https://www.codacy.com/gh/Jorengarenar/libXDGdirs/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Jorengarenar/libXDGdirs&amp;utm_campaign=Badge_Grade)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/4532/badge)](https://bestpractices.coreinfrastructure.org/projects/4532)
-[![Doxygen](https://github.com/Jorengarenar/libXDGdirs/workflows/Doxygen/badge.svg)](https://github.com/Jorengarenar/libXDGdirs/actions?query=workflow%3ADoxygen)
 [![Language grade: C/C++](https://img.shields.io/lgtm/grade/cpp/g/Jorengarenar/libXDGdirs.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Jorengarenar/libXDGdirs/context:cpp)
 [![CodeFactor](https://www.codefactor.io/repository/github/jorengarenar/libxdgdirs/badge)](https://www.codefactor.io/repository/github/jorengarenar/libxdgdirs)
 [![License](https://img.shields.io/github/license/Jorengarenar/libXDGdirs)](https://github.com/Jorengarenar/libXDGdirs/blob/master/LICENSE)
