@@ -36,6 +36,8 @@ add_subdirectory(src/)
 add_subdirectory(docs/)
 
 if(CMAKE_BUILD_TYPE STREQUAL "Debug")
+  include(CTest)
+  add_subdirectory(tests/)
   add_subdirectory(examples/)
 endif()
 

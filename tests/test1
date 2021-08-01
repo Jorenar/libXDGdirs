@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+
+XDG_DATA_HOME="/aaa"
+
+expected="$XDG_DATA_HOME"
+
+if [ "$($1)" != "$expected" ]; then
+    exit 1
+fi
