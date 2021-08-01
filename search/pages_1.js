@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['libxdgdirs_65',['libXDGdirs',['../index.html',1,'']]]
+  ['libxdgdirs_69',['libXDGdirs',['../index.html',1,'']]]
 ];

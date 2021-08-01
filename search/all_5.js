@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['size_14',['size',['../structxdgDirsList__t.html#a5cede8325a3046b6418934e339796221',1,'xdgDirsList_t']]],
-  ['system_20directories_15',['System directories',['../group__SYS__DIRS.html',1,'']]]
+  ['raw_12',['raw',['../structxdgDirsList__t.html#a92dbe4ee69a22e26818cf4c06c800680',1,'xdgDirsList_t']]],
+  ['readme_2emd_13',['README.md',['../README_8md.html',1,'']]],
+  ['reading_20environment_20variables_14',['Reading environment variables',['../group__VARIABLE__GETTERS.html',1,'']]]
 ];

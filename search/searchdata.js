@@ -1,9 +1,9 @@
 var indexSectionsWithContent =
 {
-  0: "cdlprsuvx",
+  0: "cdlmprstuvx",
   1: "x",
-  2: "clprvx",
-  3: "x",
+  2: "clprtvx",
+  3: "mx",
   4: "lrs",
   5: "x",
   6: "x",
