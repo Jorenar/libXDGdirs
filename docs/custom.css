@@ -36,3 +36,7 @@ p {
 td.mdescRight {
   padding-top: 0.3em;
 }
+
+.textblock > p > a > object[type="image/svg+xml"] {
+  margin-bottom: -6px;
+}
