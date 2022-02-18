@@ -7,7 +7,7 @@ var searchData=
   ['xdgdatadirs_51',['xdgDataDirs',['../group__SYS__DIRS.html#gabb5da0e75d6bea948c331423453c72e8',1,'xdgdirs.h']]],
   ['xdgdatahome_52',['xdgDataHome',['../group__USER__DIRS.html#ga235bbbf467b71f983483b9fd8cf38fc0',1,'xdgdirs.h']]],
   ['xdgdirs_5fclear_53',['xdgDirs_clear',['../group__CACHE__MANAGEMENT.html#ga1013e4f2dce75a399a3655478caf04f3',1,'xdgdirs.h']]],
-  ['xdgdirs_5finit_54',['xdgDirs_init',['../group__CACHE__MANAGEMENT.html#ga605d574d9851ff35a31cb3fee8369d96',1,'xdgdirs.h']]],
+  ['xdgdirs_5finit_54',['xdgDirs_init',['../group__CACHE__MANAGEMENT.html#ga8ba67d456271d55a07d9b533f31caabd',1,'xdgdirs.h']]],
   ['xdgdirs_5frefresh_55',['xdgDirs_refresh',['../group__CACHE__MANAGEMENT.html#gade3f58727eaa604338cea4064433d5c9',1,'xdgdirs.h']]],
   ['xdgruntimedir_56',['xdgRuntimeDir',['../group__USER__DIRS.html#ga61f0ba263c4ef86f76ea36f79b5e81a6',1,'xdgdirs.h']]]
 ];

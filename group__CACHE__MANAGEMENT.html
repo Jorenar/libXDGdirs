@@ -27,7 +27,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">libXDGdirs
-   &#160;<span id="projectnumber">1.0.4</span>
+   &#160;<span id="projectnumber">1.0.5</span>
    </div>
   </td>
  </tr>
@@ -92,9 +92,9 @@ $(document).ready(function(){initNavTree('group__CACHE__MANAGEMENT.html',''); in
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga605d574d9851ff35a31cb3fee8369d96"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CACHE__MANAGEMENT.html#ga605d574d9851ff35a31cb3fee8369d96">xdgDirs_init</a> ()</td></tr>
-<tr class="memdesc:ga605d574d9851ff35a31cb3fee8369d96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Explicitly read variables before first use.  <a href="group__CACHE__MANAGEMENT.html#ga605d574d9851ff35a31cb3fee8369d96">More...</a><br /></td></tr>
-<tr class="separator:ga605d574d9851ff35a31cb3fee8369d96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8ba67d456271d55a07d9b533f31caabd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CACHE__MANAGEMENT.html#ga8ba67d456271d55a07d9b533f31caabd">xdgDirs_init</a> ()</td></tr>
+<tr class="memdesc:ga8ba67d456271d55a07d9b533f31caabd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Explicitly read variables before first use.  <a href="group__CACHE__MANAGEMENT.html#ga8ba67d456271d55a07d9b533f31caabd">More...</a><br /></td></tr>
+<tr class="separator:ga8ba67d456271d55a07d9b533f31caabd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1013e4f2dce75a399a3655478caf04f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CACHE__MANAGEMENT.html#ga1013e4f2dce75a399a3655478caf04f3">xdgDirs_clear</a> ()</td></tr>
 <tr class="memdesc:ga1013e4f2dce75a399a3655478caf04f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear cached data.  <a href="group__CACHE__MANAGEMENT.html#ga1013e4f2dce75a399a3655478caf04f3">More...</a><br /></td></tr>
 <tr class="separator:ga1013e4f2dce75a399a3655478caf04f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -125,14 +125,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ga605d574d9851ff35a31cb3fee8369d96"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga605d574d9851ff35a31cb3fee8369d96">&#9670;&nbsp;</a></span>xdgDirs_init()</h2>
+<a id="ga8ba67d456271d55a07d9b533f31caabd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8ba67d456271d55a07d9b533f31caabd">&#9670;&nbsp;</a></span>xdgDirs_init()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void xdgDirs_init </td>
+          <td class="memname">int xdgDirs_init </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -140,7 +140,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Will be used automatically with first call to any function from <a class="el" href="group__VARIABLE__GETTERS.html">Reading environment variables</a></p>
-<p>Call it if you want to have all data initialized before first use </p>
+<p>Call it if you want to have all data initialized before first use</p>
+<p>Returns 0 on success, positive value otherwise </p>
 
 </div>
 </div>
@@ -158,7 +159,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Clear cache with <a class="el" href="group__CACHE__MANAGEMENT.html#ga1013e4f2dce75a399a3655478caf04f3" title="Clear cached data.">xdgDirs_clear()</a> and initializes again with <a class="el" href="group__CACHE__MANAGEMENT.html#ga605d574d9851ff35a31cb3fee8369d96" title="Explicitly read variables before first use.">xdgDirs_init()</a> </p>
+<p>Clear cache with <a class="el" href="group__CACHE__MANAGEMENT.html#ga1013e4f2dce75a399a3655478caf04f3" title="Clear cached data.">xdgDirs_clear()</a> and initializes again with <a class="el" href="group__CACHE__MANAGEMENT.html#ga8ba67d456271d55a07d9b533f31caabd" title="Explicitly read variables before first use.">xdgDirs_init()</a> </p>
 
 </div>
 </div>
