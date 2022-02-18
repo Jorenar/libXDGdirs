@@ -137,10 +137,10 @@ void xdgDirs_clear()
     xdgDirs_cache.initialized = 0;
 }
 
-void xdgDirs_init()
+int xdgDirs_init()
 {
     if (xdgDirs_cache.initialized == 1) {
-        return;
+        return 0;
     }
 
     xdgDirs_clear();
@@ -148,8 +148,7 @@ void xdgDirs_init()
     const char* home = getenv("HOME");
 
     if (home == NULL) {
-        fputs("Could not get the value of $HOME environment variable", stderr);
-        exit(1);
+        return 1;
     }
 
     xdgDirs_getenv(&xdgDirs_cache.user.data,    "XDG_DATA_HOME",   "%s%s", home, "/.local/share");
@@ -164,6 +163,8 @@ void xdgDirs_init()
     xdgDirs_genList(&xdgDirs_cache.system.config);
 
     xdgDirs_cache.initialized = 1;
+
+    return 0;
 }
 
 void xdgDirs_refresh()
@@ -177,7 +178,13 @@ void xdgDirs_refresh()
 /// @name Reading environment variables
 /// @{
 
-#define XDGDIRS_RETURN(var) do { xdgDirs_init(); return var; } while (0)
+#define XDGDIRS_RETURN(var)        \
+    do {                           \
+        if (xdgDirs_init() != 0) { \
+            return NULL;           \
+        }                          \
+        return var;                \
+    } while (0)
 
 // User directories {{{1
 

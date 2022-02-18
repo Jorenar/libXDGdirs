@@ -12,7 +12,7 @@ extern "C" {
  *  @details
  *    Adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html)
  */
-#define XDGDIRS_VER "1.0.4"
+#define XDGDIRS_VER "1.0.5"
 
 /// Version of XDG Base Directory specification implemented in this library
 #define XDGBDS_VER "0.7"
@@ -35,8 +35,10 @@ typedef const struct xdgDirsList_t xdgDirsList;
  *    @ref VARIABLE_GETTERS
  *
  *    Call it if you want to have all data initialized before first use
+ *
+ *    Returns 0 on success, positive value otherwise
  */
-void xdgDirs_init();
+int xdgDirs_init();
 
 /** @brief Clear cached data
  *  @details

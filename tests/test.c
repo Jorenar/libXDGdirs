@@ -3,6 +3,9 @@
 
 int main()
 {
-    puts(xdgDataHome());
+    const char* data_home = xdgDataHome();
+    if (data_home) {
+        puts(data_home);
+    }
     return 0;
 }
