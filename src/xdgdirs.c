@@ -108,6 +108,7 @@ static struct DOXYGEN_UNNAMED {
     short initialized;
     struct /* user */ {
         const char* data;    ///< @c $XDG_DATA_HOME
+        const char* state;   ///< @c $XDG_STATE_HOME
         const char* config;  ///< @c $XDG_CONFIG_HOME
         const char* cache;   ///< @c $XDG_CACHE_HOME
         const char* runtime; ///< @c $XDG_RUNTIME_DIR
@@ -128,6 +129,7 @@ void xdgDirs_clear()
 
     xdgDirs_free(&xdgDirs_cache.user.config,  NULL);
     xdgDirs_free(&xdgDirs_cache.user.data,    NULL);
+    xdgDirs_free(&xdgDirs_cache.user.state,   NULL);
     xdgDirs_free(&xdgDirs_cache.user.cache,   NULL);
     xdgDirs_free(&xdgDirs_cache.user.runtime, NULL);
 
@@ -152,6 +154,7 @@ int xdgDirs_init()
     }
 
     xdgDirs_getenv(&xdgDirs_cache.user.data,    "XDG_DATA_HOME",   "%s%s", home, "/.local/share");
+    xdgDirs_getenv(&xdgDirs_cache.user.state,   "XDG_STATE_HOME",  "%s%s", home, "/.local/state");
     xdgDirs_getenv(&xdgDirs_cache.user.config,  "XDG_CONFIG_HOME", "%s%s", home, "/.config");
     xdgDirs_getenv(&xdgDirs_cache.user.cache,   "XDG_CACHE_HOME",  "%s%s", home, "/.cache");
     xdgDirs_getenv(&xdgDirs_cache.user.runtime, "XDG_RUNTIME_DIR", "");
@@ -191,6 +194,11 @@ void xdgDirs_refresh()
 const char* xdgDataHome()
 {
     XDGDIRS_RETURN(xdgDirs_cache.user.data);
+}
+
+const char* xdgStateHome()
+{
+    XDGDIRS_RETURN(xdgDirs_cache.user.state);
 }
 
 const char* xdgConfigHome()

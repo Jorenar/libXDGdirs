@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.0] - 2022-04-27
+
+Updated to XDG Base Directory Specification version 0.8
+
+### Added
+
+- `XDG_STATE_HOME`
+
 ## [1.0.5] - 2022-02-18
 
 ### Fixed
@@ -69,7 +77,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Documentation
 - README, CHANGELOG and AUTHORS
 
-[unreleased]: https://github.com/Jorengarenar/libXDGdirs/compare/v1.0.5...HEAD
+[unreleased]: https://github.com/Jorengarenar/libXDGdirs/compare/v1.1.0...HEAD
+[1.1.0]: https://github.com/Jorengarenar/libXDGdirs/compare/v1.0.5...v1.1.0
 [1.0.5]: https://github.com/Jorengarenar/libXDGdirs/compare/v1.0.4...v1.0.5
 [1.0.4]: https://github.com/Jorengarenar/libXDGdirs/compare/v1.0.3...v1.0.4
 [1.0.3]: https://github.com/Jorengarenar/libXDGdirs/compare/v1.0.2...v1.0.3

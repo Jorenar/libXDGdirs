@@ -12,10 +12,10 @@ extern "C" {
  *  @details
  *    Adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html)
  */
-#define XDGDIRS_VER "1.0.5"
+#define XDGDIRS_VER "1.1.0"
 
 /// Version of XDG Base Directory specification implemented in this library
-#define XDGBDS_VER "0.7"
+#define XDGBDS_VER "0.8"
 
 /// @brief Container for environment variables which are colon separated lists
 struct xdgDirsList_t {
@@ -69,6 +69,13 @@ void xdgDirs_refresh();
  *  @return a path as described by the standards or NULL
  */
 const char* xdgDataHome();
+
+/** @brief Value of @c $XDG_STATE_HOME
+ *  @details
+ *    Base directory for user-specific state files
+ *  @return a path as described by the standards or NULL
+ */
+const char* xdgStateHome();
 
 /** @brief Value of @c $XDG_CONFIG_HOME
  *  @details
