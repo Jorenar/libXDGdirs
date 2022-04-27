@@ -13,5 +13,6 @@ var xdgdirs_8h =
     [ "xdgDirs_clear", "group__CACHE__MANAGEMENT.html#ga1013e4f2dce75a399a3655478caf04f3", null ],
     [ "xdgDirs_init", "group__CACHE__MANAGEMENT.html#ga8ba67d456271d55a07d9b533f31caabd", null ],
     [ "xdgDirs_refresh", "group__CACHE__MANAGEMENT.html#gade3f58727eaa604338cea4064433d5c9", null ],
-    [ "xdgRuntimeDir", "group__USER__DIRS.html#ga61f0ba263c4ef86f76ea36f79b5e81a6", null ]
+    [ "xdgRuntimeDir", "group__USER__DIRS.html#ga61f0ba263c4ef86f76ea36f79b5e81a6", null ],
+    [ "xdgStateHome", "group__USER__DIRS.html#gab33ad51f864b61562c3c0794e1fbbd3a", null ]
 ];
