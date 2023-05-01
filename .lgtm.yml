@@ -1,5 +1,0 @@
-extraction:
-  cpp:
-    after_prepare:
-    - "sed -i 's/\\(cmake_minimum_required(VERSION\\) 3.16)/\\1 3.13)/' CMakeLists.txt" # LGTM has only old CMake 3.13
-    - "sed -i '/install(/d' CMakeLists.txt" # and this version of CMake does not define default install locations
