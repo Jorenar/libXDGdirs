@@ -1,27 +1,9 @@
-.memdoc, dl.reflist dd, .memproto, dl.reflist dt {
-  background-image: none !important;
-  box-shadow: none !important;
-}
-
-.sm-dox {
-  background-image: none !important;
-  background-color: #dfdfdf;
-}
-
-div#main-nav {
-  border-bottom: 1px solid #5373B4;
-}
-
 div.fragment {
   padding: 1em;
 }
 
 div.line {
   min-height: 1.2em;
-}
-
-span.mlabel {
-  font-size: 1.01em;
 }
 
 code {
@@ -31,12 +13,4 @@ code {
 p {
   max-width: 100ch;
   text-align: justify;
-}
-
-td.mdescRight {
-  padding-top: 0.3em;
-}
-
-.textblock > p > a > object[type="image/svg+xml"] {
-  margin-bottom: -6px;
 }
