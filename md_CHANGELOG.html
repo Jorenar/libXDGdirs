@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libXDGdirs<span id="projectnumber">&#160;v1.1.0-5-gc7bfc17</span>
+   <div id="projectname">libXDGdirs<span id="projectnumber">&#160;v1.1.1</span>
    </div>
   </td>
  </tr>
@@ -97,79 +97,86 @@ $(document).ready(function(){initNavTree('md_CHANGELOG.html',''); initResizable(
 <div class="textblock"><p><a class="anchor" id="autotoc_md0"></a> All notable changes to this project will be documented in this file.</p>
 <p>The format is based on <a href="https://keepachangelog.com/en/1.0.0/">Keep a Changelog</a>, and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semantic Versioning</a>.</p>
 <h1><a class="anchor" id="autotoc_md1"></a>
-&lt;a href="https://github.com/Jorengarenar/libXDGdirs/compare/v1.1.0...HEAD"</h1>
+&lt;a href="https://github.com/Jorengarenar/libXDGdirs/compare/v1.1.1...HEAD"</h1>
 <p>&gt;Unreleased</p>
 <h1><a class="anchor" id="autotoc_md2"></a>
+&lt;a href="https://github.com/Jorengarenar/libXDGdirs/compare/v1.1.0...v1.1.1" &gt;1.1.1&lt;/a&gt; - 2023-11-11</h1>
+<h2><a class="anchor" id="autotoc_md3"></a>
+Fixed</h2>
+<ul>
+<li>Missing <code>void</code> params</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md4"></a>
 &lt;a href="https://github.com/Jorengarenar/libXDGdirs/compare/v1.0.5...v1.1.0" &gt;1.1.0&lt;/a&gt; - 2022-04-27</h1>
 <p>Updated to XDG Base Directory Specification version 0.8</p>
-<h2><a class="anchor" id="autotoc_md3"></a>
+<h2><a class="anchor" id="autotoc_md5"></a>
 Added</h2>
 <ul>
 <li><code>XDG_STATE_HOME</code></li>
 </ul>
-<h1><a class="anchor" id="autotoc_md4"></a>
+<h1><a class="anchor" id="autotoc_md6"></a>
 &lt;a href="https://github.com/Jorengarenar/libXDGdirs/compare/v1.0.4...v1.0.5" &gt;1.0.5&lt;/a&gt; - 2022-02-18</h1>
-<h2><a class="anchor" id="autotoc_md5"></a>
+<h2><a class="anchor" id="autotoc_md7"></a>
 Fixed</h2>
 <ul>
 <li>Define undefined <code>XDGDIRS_VER</code></li>
-<li>Return value of <code><a class="el" href="group__CACHE__MANAGEMENT.html#ga8ba67d456271d55a07d9b533f31caabd" title="Explicitly read variables before first use.">xdgDirs_init()</a></code></li>
+<li>Return value of <code><a class="el" href="group__CACHE__MANAGEMENT.html#gaf8a1bff63988627051e8a4713a3d7d55" title="Explicitly read variables before first use.">xdgDirs_init()</a></code></li>
 </ul>
-<h1><a class="anchor" id="autotoc_md6"></a>
+<h1><a class="anchor" id="autotoc_md8"></a>
 &lt;a href="https://github.com/Jorengarenar/libXDGdirs/compare/v1.0.3...v1.0.4" &gt;1.0.4&lt;/a&gt; - 2020-12-22</h1>
-<h2><a class="anchor" id="autotoc_md7"></a>
+<h2><a class="anchor" id="autotoc_md9"></a>
 Fixed</h2>
 <ul>
 <li><code>xdgDirsList</code> in C++</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md8"></a>
+<h1><a class="anchor" id="autotoc_md10"></a>
 &lt;a href="https://github.com/Jorengarenar/libXDGdirs/compare/v1.0.2...v1.0.3" &gt;1.0.3&lt;/a&gt; - 2020-12-22</h1>
-<h2><a class="anchor" id="autotoc_md9"></a>
+<h2><a class="anchor" id="autotoc_md11"></a>
 Changed</h2>
 <ul>
 <li>Use <code>vsnprintf()</code> in <code>xdgDirs_getenv()</code></li>
 </ul>
-<h2><a class="anchor" id="autotoc_md10"></a>
+<h2><a class="anchor" id="autotoc_md12"></a>
 Fixed</h2>
 <ul>
 <li>Return from <code>xdgDirs_getenv()</code> after assigning <code>NULL</code></li>
 <li>Missing <code>extern <a class="el" href="classC.html">C</a></code></li>
 </ul>
-<h1><a class="anchor" id="autotoc_md11"></a>
+<h1><a class="anchor" id="autotoc_md13"></a>
 &lt;a href="https://github.com/Jorengarenar/libXDGdirs/compare/v1.0.1...v1.0.2" &gt;1.0.2&lt;/a&gt; - 2020-12-21</h1>
-<h2><a class="anchor" id="autotoc_md12"></a>
+<h2><a class="anchor" id="autotoc_md14"></a>
 Added</h2>
 <ul>
 <li>LGTM and CodeFactor project badges in README</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md13"></a>
+<h2><a class="anchor" id="autotoc_md15"></a>
 Changed</h2>
 <ul>
 <li>Rename <code>LIB_NAME</code> to <code>XDGDIRS</code> in CMakeLists.txt</li>
 <li>Use <code>${PROJECT_VERSION}</code> instead of <code>${CMAKE_PROJECT_VERSION}"&lt;/tt&gt;
 
-@subsection autotoc_md14 Fixed
+@subsection autotoc_md16 Fixed
 
 - Assignment of value instead of comparison (src/xdgdirs.c:35)
 
-@section autotoc_md15 &lt;a href="<a href="https://github.com/Jorengarenar/libXDGdirs/compare/v1.0.0...v1.0.1">https://github.com/Jorengarenar/libXDGdirs/compare/v1.0.0...v1.0.1</a>" &gt;1.0.1&lt;/a&gt; - 2020-12-20
+@section autotoc_md17 &lt;a href="<a href="https://github.com/Jorengarenar/libXDGdirs/compare/v1.0.0...v1.0.1">https://github.com/Jorengarenar/libXDGdirs/compare/v1.0.0...v1.0.1</a>" &gt;1.0.1&lt;/a&gt; - 2020-12-20
 
-@subsection autotoc_md16 Added
+@subsection autotoc_md18 Added
 
 - LGTM configuration
 
-@subsection autotoc_md17 Changed
+@subsection autotoc_md19 Changed
 
 - Cosmetic change from &lt;tt&gt;-pedantic&lt;/tt&gt; compiler flag to &lt;tt&gt;-Wpedantic&lt;/tt&gt;
 
-@subsection autotoc_md18 Fixed
+@subsection autotoc_md20 Fixed
 
 - Check if &lt;tt&gt;fmt&lt;/tt&gt; in &lt;tt&gt;xdgDirs_getenv()&lt;/tt&gt; is &lt;tt&gt;NULL&lt;/tt&gt;
 
-@section autotoc_md19 &lt;a href="<a href="https://github.com/Jorengarenar/libXDGdirs/releases/tag/v1.0.0">https://github.com/Jorengarenar/libXDGdirs/releases/tag/v1.0.0</a>" &gt;1.0.0 - 2020-12-20</code></li>
+@section autotoc_md21 &lt;a href="<a href="https://github.com/Jorengarenar/libXDGdirs/releases/tag/v1.0.0">https://github.com/Jorengarenar/libXDGdirs/releases/tag/v1.0.0</a>" &gt;1.0.0 - 2020-12-20</code></li>
 </ul>
 <p><code></code></p>
-<h2><a class="anchor" id="autotoc_md20"></a>
+<h2><a class="anchor" id="autotoc_md22"></a>
 Added</h2>
 <p><code></code></p>
 <p><code></p><ul>

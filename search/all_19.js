@@ -1,7 +1,7 @@
 var searchData=
 [
   ['tag_0',['Tag',['../classTag.html',1,'']]],
-  ['tag_20v1_200_200_201_200_200_20a_202020_2012_2020_1',['&lt;a href=&quot;https://github.com/Jorengarenar/libXDGdirs/releases/tag/v1.0.0&quot; &gt;1.0.0&lt;/a&gt; - 2020-12-20',['../md_CHANGELOG.html#autotoc_md19',1,'']]],
+  ['tag_20v1_200_200_201_200_200_20a_202020_2012_2020_1',['&lt;a href=&quot;https://github.com/Jorengarenar/libXDGdirs/releases/tag/v1.0.0&quot; &gt;1.0.0&lt;/a&gt; - 2020-12-20',['../md_CHANGELOG.html#autotoc_md21',1,'']]],
   ['tag_2ecpp_2',['tag.cpp',['../tag_8cpp.html',1,'']]],
   ['templ_2ecpp_3',['templ.cpp',['../templ_8cpp.html',1,'']]],
   ['tenum_4',['tenum',['../classEnum__Test.html#a8d096bc026dbb395991f02e3ca86eb1c',1,'Enum_Test::TEnum'],['../classJavadoc__Test.html#ae37fd1cbf1af522674cbd33873b786a6',1,'Javadoc_Test::TEnum'],['../classQTstyle__Test.html#a0525f798cda415a94fedeceb806d2c49',1,'QTstyle_Test::TEnum']]],
