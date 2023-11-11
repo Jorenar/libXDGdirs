@@ -38,7 +38,7 @@ typedef const struct xdgDirsList_t xdgDirsList;
  *
  *    Returns 0 on success, positive value otherwise
  */
-int xdgDirs_init();
+int xdgDirs_init(void);
 
 /** @brief Clear cached data
  *  @details
@@ -46,13 +46,13 @@ int xdgDirs_init();
  *
  *    Call when XDGBDS is no longer needed (presumably at the end of program)
  */
-void xdgDirs_clear();
+void xdgDirs_clear(void);
 
 /** @brief Read environment variables again
  *  @details
  *    Clear cache with xdgDirs_clear() and initializes again with xdgDirs_init()
  */
-void xdgDirs_refresh();
+void xdgDirs_refresh(void);
 
 /// @}
 
@@ -68,28 +68,28 @@ void xdgDirs_refresh();
  *    Base directory for user-specific data files (analogous to @c /usr/share)
  *  @return a path as described by the standards or NULL
  */
-const char* xdgDataHome();
+const char* xdgDataHome(void);
 
 /** @brief Value of @c $XDG_STATE_HOME
  *  @details
  *    Base directory for user-specific state files
  *  @return a path as described by the standards or NULL
  */
-const char* xdgStateHome();
+const char* xdgStateHome(void);
 
 /** @brief Value of @c $XDG_CONFIG_HOME
  *  @details
  *    Base directory for user-specific configuration files (analogous to @c /etc)
  *  @return a path as described by the standards or NULL
  */
-const char* xdgConfigHome();
+const char* xdgConfigHome(void);
 
 /** @brief Value of @c $XDG_CACHE_HOME
  *  @details
  *    Base directory for user-specific non-essential data files (analogous to @c /var/cache)
  *  @return a path as described by the standards or NULL
  */
-const char* xdgCacheHome();
+const char* xdgCacheHome(void);
 
 /** @brief Value of @c $XDG_RUNTIME_DIR
  *  @details
@@ -97,7 +97,7 @@ const char* xdgCacheHome();
  *    objects such as sockets and named pipes)
  *  @return a path as described by the standards or NULL
  */
-const char* xdgRuntimeDir();
+const char* xdgRuntimeDir(void);
 
 /// @}
 
@@ -113,7 +113,7 @@ const char* xdgRuntimeDir();
  *    See lists.c for example
  *  @return pointer to `const struct xdgDirsList_t`
  */
-xdgDirsList* xdgDataDirs();
+xdgDirsList* xdgDataDirs(void);
 
 /** @brief Value of @c $XDG_CONFIG_DIRS
  *  @details
@@ -121,7 +121,7 @@ xdgDirsList* xdgDataDirs();
  *    files in addition to the @c $XDG_CONFIG_HOME base directory
  *  @return pointer to `const struct xdgDirsList_t`
  */
-xdgDirsList* xdgConfigDirs();
+xdgDirsList* xdgConfigDirs(void);
 
 /// @}
 

@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <xdgdirs.h>
+#include "xdgdirs.h"
 
 int main()
 {

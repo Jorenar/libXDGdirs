@@ -121,7 +121,7 @@ static struct DOXYGEN_UNNAMED {
 
 #undef DOXYGEN_UNNAMED
 
-void xdgDirs_clear()
+void xdgDirs_clear(void)
 {
     if (xdgDirs_cache.initialized == 0) {
         return;
@@ -139,7 +139,7 @@ void xdgDirs_clear()
     xdgDirs_cache.initialized = 0;
 }
 
-int xdgDirs_init()
+int xdgDirs_init(void)
 {
     if (xdgDirs_cache.initialized == 1) {
         return 0;
@@ -170,7 +170,7 @@ int xdgDirs_init()
     return 0;
 }
 
-void xdgDirs_refresh()
+void xdgDirs_refresh(void)
 {
     xdgDirs_cache.initialized = -1;
     xdgDirs_init();
@@ -191,39 +191,39 @@ void xdgDirs_refresh()
 
 // User directories {{{1
 
-const char* xdgDataHome()
+const char* xdgDataHome(void)
 {
     XDGDIRS_RETURN(xdgDirs_cache.user.data);
 }
 
-const char* xdgStateHome()
+const char* xdgStateHome(void)
 {
     XDGDIRS_RETURN(xdgDirs_cache.user.state);
 }
 
-const char* xdgConfigHome()
+const char* xdgConfigHome(void)
 {
     XDGDIRS_RETURN(xdgDirs_cache.user.config);
 }
 
-const char* xdgCacheHome()
+const char* xdgCacheHome(void)
 {
     XDGDIRS_RETURN(xdgDirs_cache.user.cache);
 }
 
-const char* xdgRuntimeDir()
+const char* xdgRuntimeDir(void)
 {
     XDGDIRS_RETURN(xdgDirs_cache.user.runtime);
 }
 
 // System directories {{{1
 
-xdgDirsList* xdgDataDirs()
+xdgDirsList* xdgDataDirs(void)
 {
     XDGDIRS_RETURN(&xdgDirs_cache.system.data);
 }
 
-xdgDirsList* xdgConfigDirs()
+xdgDirsList* xdgConfigDirs(void)
 {
     XDGDIRS_RETURN(&xdgDirs_cache.system.config);
 }
