@@ -12,7 +12,12 @@ jobs:
         with:
           submodules: recursive
       - name: Install Doxygen
-        run: sudo apt-get update && sudo apt-get install -yq doxygen
+        run: |
+          ver="1.9.8"
+          curl -OL https://www.doxygen.nl/files/doxygen-"$ver".linux.bin.tar.gz
+          tar xvzf doxygen-"$ver".linux.bin.tar.gz
+          cd doxygen-"$ver"
+          sudo make install
       - name: CMake
         run: cmake -B build -H. -DCMAKE_BUILD_TYPE=Release
       - name: Make docs
