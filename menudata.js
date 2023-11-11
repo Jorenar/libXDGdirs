@@ -27,7 +27,6 @@ var menudata={children:[
 {text:"Download",url:"https://github.com/Jorengarenar/libXDGdirs/releases"},
 {text:"Changelog",url:"https://github.com/Jorengarenar/libXDGdirs/blob/master/CHANGELOG.md"},
 {text:"License",url:"https://github.com/Jorengarenar/libXDGdirs/blob/master/LICENSE"},
-{text:"Modules",url:"modules.html"},
 {text:"Data Structures",url:"annotated.html",children:[
 {text:"Data Structures",url:"annotated.html"},
 {text:"Data Fields",url:"functions.html",children:[
