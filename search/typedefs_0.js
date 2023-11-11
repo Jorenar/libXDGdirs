@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['xdgdirslist_62',['xdgDirsList',['../xdgdirs_8h.html#a682ed7e50a1285f00448b8008b6b896b',1,'xdgdirs.h']]]
+  ['b_0',['B',['../autolink_8cpp.html#a7ddc550b157ed6f8db58e462b504ab0f',1,'autolink.cpp']]]
 ];

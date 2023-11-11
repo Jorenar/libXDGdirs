@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['changelog_69',['Changelog',['../md_CHANGELOG.html',1,'']]],
-  ['contributing_20to_20libxdgdirs_70',['Contributing to libXDGdirs',['../md_CONTRIBUTING.html',1,'']]]
+  ['5_0',['5',['../group__group5.html',1,'This is a section in group 5'],['../group__group5.html',1,'This is another section in group 5']]]
 ];

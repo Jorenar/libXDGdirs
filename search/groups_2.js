@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['system_20directories_67',['System directories',['../group__SYS__DIRS.html',1,'']]]
+  ['environment_20variables_0',['Reading environment variables',['../group__VARIABLE__GETTERS.html',1,'']]]
 ];

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['xdgbds_5fver_63',['XDGBDS_VER',['../xdgdirs_8h.html#a82ee36bad14cef731e85834dc6fb1b2a',1,'xdgdirs.h']]],
-  ['xdgdirs_5fver_64',['XDGDIRS_VER',['../xdgdirs_8h.html#a603b85bd9bb84acd8b6ea048faea0cea',1,'xdgdirs.h']]]
+  ['a_0',['A',['../memgrp_8cpp.html#a955f504eccf76b4eb2489c0adab03121',1,'memgrp.cpp']]],
+  ['abs_1',['abs',['../autolink_8cpp.html#a996f7be338ccb40d1a2a5abc1ad61759',1,'ABS:&#160;autolink.cpp'],['../define_8h.html#a996f7be338ccb40d1a2a5abc1ad61759',1,'ABS:&#160;define.h']]]
 ];

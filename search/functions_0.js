@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['main_47',['main',['../test_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'test.c']]]
+  ['_5f_5finit_5f_5f_0',['__init__',['../classdocstring_1_1PyClass.html#a03342ef04e3b83b2df9dec57a10f62c4',1,'docstring.PyClass.__init__()'],['../classpyexample_1_1PyClass.html#ac453f98ee6fbd41496b5c864bda1af21',1,'pyexample.PyClass.__init__()']]]
 ];

@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['x_0',['x',['../structCoordStruct.html#a183d7226fc5a8470ce9b9f04f9cb69bb',1,'CoordStruct']]],
+  ['xdgbds_5fver_1',['XDGBDS_VER',['../xdgdirs_8h.html#a82ee36bad14cef731e85834dc6fb1b2a',1,'xdgdirs.h']]],
+  ['xdgcachehome_2',['xdgCacheHome',['../group__USER__DIRS.html#ga37352127562de093b96736af27dfe75b',1,'xdgdirs.h']]],
+  ['xdgconfigdirs_3',['xdgConfigDirs',['../group__SYS__DIRS.html#ga1284a9b0038a81b0ad832ef39e3071b9',1,'xdgdirs.h']]],
+  ['xdgconfighome_4',['xdgConfigHome',['../group__USER__DIRS.html#ga8f23b2f15f5ca08990bf7f728e1000dd',1,'xdgdirs.h']]],
+  ['xdgcustomvar_5',['xdgCustomVar',['../group__VARIABLE__GETTERS.html#ga9018d69481ebcc7c6adaab6a5096981d',1,'xdgdirs.h']]],
+  ['xdgdatadirs_6',['xdgDataDirs',['../group__SYS__DIRS.html#gae1aaaf74dd15a964da37be3f6be0e093',1,'xdgdirs.h']]],
+  ['xdgdatahome_7',['xdgDataHome',['../group__USER__DIRS.html#ga6b7260091caaf89879b919b395546d25',1,'xdgdirs.h']]],
+  ['xdgdirs_2eh_8',['xdgdirs.h',['../xdgdirs_8h.html',1,'']]],
+  ['xdgdirs_5fclear_9',['xdgDirs_clear',['../group__CACHE__MANAGEMENT.html#ga1013e4f2dce75a399a3655478caf04f3',1,'xdgdirs.h']]],
+  ['xdgdirs_5finit_10',['xdgDirs_init',['../group__CACHE__MANAGEMENT.html#ga8ba67d456271d55a07d9b533f31caabd',1,'xdgdirs.h']]],
+  ['xdgdirs_5frefresh_11',['xdgDirs_refresh',['../group__CACHE__MANAGEMENT.html#gade3f58727eaa604338cea4064433d5c9',1,'xdgdirs.h']]],
+  ['xdgdirs_5fver_12',['XDGDIRS_VER',['../xdgdirs_8h.html#a603b85bd9bb84acd8b6ea048faea0cea',1,'xdgdirs.h']]],
+  ['xdgdirslist_13',['xdgDirsList',['../xdgdirs_8h.html#a682ed7e50a1285f00448b8008b6b896b',1,'xdgdirs.h']]],
+  ['xdgdirslist_5ft_14',['xdgDirsList_t',['../structxdgDirsList__t.html',1,'']]],
+  ['xdgruntimedir_15',['xdgRuntimeDir',['../group__USER__DIRS.html#gaf8a837eda7403c7cdeed9dfc76088991',1,'xdgdirs.h']]],
+  ['xdgstatehome_16',['xdgStateHome',['../group__USER__DIRS.html#ga792493fd7b0d19bbedb5ed665043a765',1,'xdgdirs.h']]]
+];

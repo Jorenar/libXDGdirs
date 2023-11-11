@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['size_61',['size',['../structxdgDirsList__t.html#a5cede8325a3046b6418934e339796221',1,'xdgDirsList_t']]]
+  ['classvar_0',['classVar',['../classpyexample_1_1PyClass.html#abd17aff54e5b0ca194020c796c733546',1,'pyexample::PyClass']]]
 ];

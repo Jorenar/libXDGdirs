@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['changelog_2emd_37',['CHANGELOG.md',['../CHANGELOG_8md.html',1,'']]],
-  ['compilation_2edox_38',['compilation.dox',['../compilation_8dox.html',1,'']]],
-  ['contributing_2emd_39',['CONTRIBUTING.md',['../CONTRIBUTING_8md.html',1,'']]],
-  ['custom_2ec_40',['custom.c',['../custom_8c.html',1,'']]]
+  ['afterdoc_2eh_0',['afterdoc.h',['../afterdoc_8h.html',1,'']]],
+  ['author_2ecpp_1',['author.cpp',['../author_8cpp.html',1,'']]],
+  ['autolink_2ecpp_2',['autolink.cpp',['../autolink_8cpp.html',1,'']]]
 ];
