@@ -9,16 +9,16 @@ libXDGdirs
 
 An implementation of [XDG Base Directory Specification](https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html)
 
-_XDGBDS_ defines four categories of dotfiles and the corresponding directories in a users
-home directory that should be used for those. The categories are cache,
-configuration, data and runtime files.
+_XDGBDS_ defines four categories of dotfiles and the corresponding directories
+in user's home directory that should be used for those. The categories are
+cache, configuration, data, state and runtime files.
 
 All those locations have corresponding `XDG_*` environment variables.
 
-All paths set in them must be absolute. If a relative path is encountered,
-the path is consider invalid and `NULL` is assigned.
+All paths set in them must be absolute.  
+If a relative path is encountered, the path is consider invalid and `NULL` is assigned.
 
-## Obtaining
+## Build
 
 ### Download
 
@@ -32,7 +32,7 @@ cd libXDGdirs
 ### Build
 ```sh
 cmake -B build/ -DCMAKE_BUILD_TYPE=Release
-cmake --build build/
+cmake --build build/ --config=Release
 ```
 
 ### Install
@@ -42,14 +42,11 @@ cmake --install build/
 
 ## Documentation
 
-Generated with [Doxygen](https://www.doxygen.nl)
-
-**WARNING!** [Documentation](https://jorengarenar.github.io/libXDGdirs) available
-online uses latest commit, not release!
+[Documentation](https://jorengarenar.github.io/libXDGdirs) generated from **latest commit** using [Doxygen](https://www.doxygen.nl)
 
 ## Usage
 
-Refer to [modules](https://jorengarenar.github.io/libXDGdirs/modules.html)
+Refer to [topics](https://jorengarenar.github.io/libXDGdirs/topics.html)
 and [examples](https://jorengarenar.github.io/libXDGdirs/examples.html)
 in [documentation](https://jorengarenar.github.io/libXDGdirs)
 
