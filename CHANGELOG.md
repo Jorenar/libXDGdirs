@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.1] - 2023-11-11
+
 ### Fixed
 
 - Missing `void` params
@@ -81,7 +83,8 @@ Updated to XDG Base Directory Specification version 0.8
 - Documentation
 - README, CHANGELOG and AUTHORS
 
-[unreleased]: https://github.com/Jorengarenar/libXDGdirs/compare/v1.1.0...HEAD
+[unreleased]: https://github.com/Jorengarenar/libXDGdirs/compare/v1.1.1...HEAD
+[1.1.1]: https://github.com/Jorengarenar/libXDGdirs/compare/v1.1.0...v1.1.1
 [1.1.0]: https://github.com/Jorengarenar/libXDGdirs/compare/v1.0.5...v1.1.0
 [1.0.5]: https://github.com/Jorengarenar/libXDGdirs/compare/v1.0.4...v1.0.5
 [1.0.4]: https://github.com/Jorengarenar/libXDGdirs/compare/v1.0.3...v1.0.4
