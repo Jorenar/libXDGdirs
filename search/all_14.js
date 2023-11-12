@@ -1,9 +1,10 @@
 var searchData=
 [
-  ['object_0',['object',['../structObject.html',1,'Object'],['../manual_8c.html#ab1287b6141419421dc5c14b9f7756b0a',1,'Object:&#160;manual.c']]],
-  ['objref_1',['objRef',['../structObject.html#a71225073d06a793b9a6ea9263ed37b12',1,'Object']]],
-  ['objunref_2',['objUnref',['../structObject.html#a924ee0cecc906d148022b3f0d6325cfb',1,'Object']]],
-  ['open_3',['open',['../structcmd_8h.html#a2c4414339f388561554c2deab11a1a07',1,'structcmd.h']]],
-  ['overload_2ecpp_4',['overload.cpp',['../overload_8cpp.html',1,'']]],
-  ['overload_5ftest_5',['Overload_Test',['../classOverload__Test.html',1,'']]]
+  ['raw_0',['raw',['../structxdgDirsList__t.html#a92dbe4ee69a22e26818cf4c06c800680',1,'xdgDirsList_t']]],
+  ['read_20more_1',['Read more',['../index.html#autotoc_md37',1,'']]],
+  ['reading_20environment_20variables_2',['Reading environment variables',['../group__VARIABLE__GETTERS.html',1,'']]],
+  ['readme_2emd_3',['README.md',['../README_8md.html',1,'']]],
+  ['releases_20tag_20v1_200_200_201_200_200_20a_202020_2012_2020_4',['&lt;a href=&quot;https://github.com/Jorengarenar/libXDGdirs/releases/tag/v1.0.0&quot; &gt;1.0.0&lt;/a&gt; - 2020-12-20',['../md_CHANGELOG.html#autotoc_md21',1,'']]],
+  ['report_20bugs_20using_20a_20href_20https_3a_20github_20com_20jorengarenar_20libxdgdirs_20issues_20issues_20a_5',['Report bugs using &lt;a href=&quot;https://github.com/Jorengarenar/libXDGdirs/issues&quot; &gt;Issues&lt;/a&gt;',['../md_CONTRIBUTING.html#autotoc_md26',1,'']]],
+  ['reports_20with_20detail_20background_20and_20sample_20code_6',['Write bug reports with detail, background, and sample code',['../md_CONTRIBUTING.html#autotoc_md27',1,'']]]
 ];

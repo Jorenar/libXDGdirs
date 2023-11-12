@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['qtstyle_2ecpp_0',['qtstyle.cpp',['../qtstyle_8cpp.html',1,'']]],
-  ['qtstyle_5ftest_1',['qtstyle_test',['../classQTstyle__Test.html',1,'QTstyle_Test'],['../classQTstyle__Test.html#a14a296ea4e2ad446712f2310bec60766',1,'QTstyle_Test::QTstyle_Test()']]],
-  ['questions_20using_20a_20href_20https_3a_20github_20com_20jorengarenar_20libxdgdirs_20discussions_20discussions_20a_2',['Ask questions using &lt;a href=&quot;https://github.com/Jorengarenar/libXDGdirs/discussions&quot; &gt;Discussions&lt;/a&gt;',['../md_CONTRIBUTING.html#autotoc_md25',1,'']]]
+  ['tag_20v1_200_200_201_200_200_20a_202020_2012_2020_0',['&lt;a href=&quot;https://github.com/Jorengarenar/libXDGdirs/releases/tag/v1.0.0&quot; &gt;1.0.0&lt;/a&gt; - 2020-12-20',['../md_CHANGELOG.html#autotoc_md21',1,'']]],
+  ['test_2ec_1',['test.c',['../test_8c.html',1,'']]],
+  ['to_20libxdgdirs_2',['Contributing to libXDGdirs',['../md_CONTRIBUTING.html',1,'']]]
 ];

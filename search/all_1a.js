@@ -1,9 +1,19 @@
 var searchData=
 [
-  ['uint32_0',['UINT32',['../structcmd_8h.html#ae1e6edbbc26d6fbc71a90190d0266018',1,'structcmd.h']]],
-  ['ungroupedfunction_1',['ungroupedFunction',['../classMemgrp__Test.html#a8a3a4ac34b2e25696159ac420bd4bdc6',1,'Memgrp_Test']]],
-  ['usage_2',['Usage',['../index.html#autotoc_md36',1,'']]],
-  ['user_20directories_3',['User directories',['../group__USER__DIRS.html',1,'']]],
-  ['using_20a_20href_20https_3a_20github_20com_20jorengarenar_20libxdgdirs_20discussions_20discussions_20a_4',['Ask questions using &lt;a href=&quot;https://github.com/Jorengarenar/libXDGdirs/discussions&quot; &gt;Discussions&lt;/a&gt;',['../md_CONTRIBUTING.html#autotoc_md25',1,'']]],
-  ['using_20a_20href_20https_3a_20github_20com_20jorengarenar_20libxdgdirs_20issues_20issues_20a_5',['Report bugs using &lt;a href=&quot;https://github.com/Jorengarenar/libXDGdirs/issues&quot; &gt;Issues&lt;/a&gt;',['../md_CONTRIBUTING.html#autotoc_md26',1,'']]]
+  ['xdgbds_5fver_0',['XDGBDS_VER',['../xdgdirs_8h.html#a82ee36bad14cef731e85834dc6fb1b2a',1,'xdgdirs.h']]],
+  ['xdgcachehome_1',['xdgCacheHome',['../group__USER__DIRS.html#ga666a55084c6a5498e2bf580f01b8d33f',1,'xdgdirs.h']]],
+  ['xdgconfigdirs_2',['xdgConfigDirs',['../group__SYS__DIRS.html#ga110d48d898cba70b5744dfffb6de63a4',1,'xdgdirs.h']]],
+  ['xdgconfighome_3',['xdgConfigHome',['../group__USER__DIRS.html#ga6dd641a21cd2b311e3f27f48a155dd12',1,'xdgdirs.h']]],
+  ['xdgcustomvar_4',['xdgCustomVar',['../group__VARIABLE__GETTERS.html#ga9018d69481ebcc7c6adaab6a5096981d',1,'xdgdirs.h']]],
+  ['xdgdatadirs_5',['xdgDataDirs',['../group__SYS__DIRS.html#gacde1875a261e6e8255577fda630d7b19',1,'xdgdirs.h']]],
+  ['xdgdatahome_6',['xdgDataHome',['../group__USER__DIRS.html#gab92a025b7641e324e64b677accbed108',1,'xdgdirs.h']]],
+  ['xdgdirs_2eh_7',['xdgdirs.h',['../xdgdirs_8h.html',1,'']]],
+  ['xdgdirs_5fclear_8',['xdgDirs_clear',['../group__CACHE__MANAGEMENT.html#gadf928eaa88ee9c227b45965a4d77a172',1,'xdgdirs.h']]],
+  ['xdgdirs_5finit_9',['xdgDirs_init',['../group__CACHE__MANAGEMENT.html#gaf8a1bff63988627051e8a4713a3d7d55',1,'xdgdirs.h']]],
+  ['xdgdirs_5frefresh_10',['xdgDirs_refresh',['../group__CACHE__MANAGEMENT.html#ga872cae703c64cc2e5559b848597bc3fb',1,'xdgdirs.h']]],
+  ['xdgdirs_5fver_11',['XDGDIRS_VER',['../xdgdirs_8h.html#a603b85bd9bb84acd8b6ea048faea0cea',1,'xdgdirs.h']]],
+  ['xdgdirslist_12',['xdgDirsList',['../xdgdirs_8h.html#a682ed7e50a1285f00448b8008b6b896b',1,'xdgdirs.h']]],
+  ['xdgdirslist_5ft_13',['xdgDirsList_t',['../structxdgDirsList__t.html',1,'']]],
+  ['xdgruntimedir_14',['xdgRuntimeDir',['../group__USER__DIRS.html#ga460249f9784de45dc896a865defffb1e',1,'xdgdirs.h']]],
+  ['xdgstatehome_15',['xdgStateHome',['../group__USER__DIRS.html#ga806e455a44088e58a49e953054cf9002',1,'xdgdirs.h']]]
 ];

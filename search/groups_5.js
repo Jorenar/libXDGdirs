@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['management_0',['Data cache management',['../group__CACHE__MANAGEMENT.html',1,'']]]
+  ['system_20directories_0',['System directories',['../group__SYS__DIRS.html',1,'']]]
 ];

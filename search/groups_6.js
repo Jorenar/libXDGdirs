@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['reading_20environment_20variables_0',['Reading environment variables',['../group__VARIABLE__GETTERS.html',1,'']]]
+  ['user_20directories_0',['User directories',['../group__USER__DIRS.html',1,'']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['bug_20list_0',['Bug List',['../bug.html',1,'']]]
+  ['to_20libxdgdirs_0',['Contributing to libXDGdirs',['../md_CONTRIBUTING.html',1,'']]]
 ];

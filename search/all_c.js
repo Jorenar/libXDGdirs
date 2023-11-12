@@ -1,17 +1,14 @@
 var searchData=
 [
-  ['fifth_20group_0',['The Fifth Group',['../group__group5.html',1,'']]],
-  ['file_2eh_1',['file.h',['../file_8h.html',1,'']]],
-  ['first_20group_2',['The First Group',['../group__group1.html',1,'']]],
-  ['fixed_3',['fixed',['../md_CHANGELOG.html#autotoc_md20',1,'Fixed'],['../md_CHANGELOG.html#autotoc_md16',1,'Fixed'],['../md_CHANGELOG.html#autotoc_md12',1,'Fixed'],['../md_CHANGELOG.html#autotoc_md9',1,'Fixed'],['../md_CHANGELOG.html#autotoc_md7',1,'Fixed'],['../md_CHANGELOG.html#autotoc_md3',1,'Fixed']]],
-  ['fn_5ftest_4',['Fn_Test',['../classFn__Test.html',1,'']]],
-  ['fourth_20group_5',['The Fourth Group',['../group__group4.html',1,'']]],
-  ['func_6',['func',['../namespacepyexample.html#a0cf7bc742671b4c79ce88c87373d7969',1,'pyexample.func()'],['../group__group1.html#ga24f647174760cac13d2624b5ad74b00c',1,'func():&#160;group.cpp'],['../namespacedocstring.html#a6f9fd32331615ace36a6fa454a197ba2',1,'docstring.func()']]],
-  ['func_2eh_7',['func.h',['../func_8h.html',1,'']]],
-  ['func1ingroup1_8',['func1InGroup1',['../classMemgrp__Test.html#a5052066c03efb51395b5334da4255cd2',1,'Memgrp_Test']]],
-  ['func1ingroup2_9',['func1InGroup2',['../classMemgrp__Test.html#ab0e6553ddc36ac3cef0ac229c5dd4cdb',1,'Memgrp_Test']]],
-  ['func2_10',['func2',['../group__group1.html#ga053929c0809a5f56f7548fd7d9968f31',1,'group.cpp']]],
-  ['func2ingroup1_11',['func2InGroup1',['../classMemgrp__Test.html#a8296fa2c355e84ecf25522d54807548c',1,'Memgrp_Test']]],
-  ['func2ingroup2_12',['func2InGroup2',['../classMemgrp__Test.html#a9ce862049bb543596343e81ad3ddddff',1,'Memgrp_Test']]],
-  ['func3_13',['func3',['../group__group1.html#gadbf675591ff057ec48ce35b0d5cdf755',1,'group.cpp']]]
+  ['github_20com_20jorengarenar_20libxdgdirs_20compare_20v1_200_200_20v1_200_201_201_200_201_20a_202020_2012_2020_0',['&lt;a href=&quot;https://github.com/Jorengarenar/libXDGdirs/compare/v1.0.0...v1.0.1&quot; &gt;1.0.1&lt;/a&gt; - 2020-12-20',['../md_CHANGELOG.html#autotoc_md17',1,'']]],
+  ['github_20com_20jorengarenar_20libxdgdirs_20compare_20v1_200_201_20v1_200_202_201_200_202_20a_202020_2012_2021_1',['&lt;a href=&quot;https://github.com/Jorengarenar/libXDGdirs/compare/v1.0.1...v1.0.2&quot; &gt;1.0.2&lt;/a&gt; - 2020-12-21',['../md_CHANGELOG.html#autotoc_md13',1,'']]],
+  ['github_20com_20jorengarenar_20libxdgdirs_20compare_20v1_200_202_20v1_200_203_201_200_203_20a_202020_2012_2022_2',['&lt;a href=&quot;https://github.com/Jorengarenar/libXDGdirs/compare/v1.0.2...v1.0.3&quot; &gt;1.0.3&lt;/a&gt; - 2020-12-22',['../md_CHANGELOG.html#autotoc_md10',1,'']]],
+  ['github_20com_20jorengarenar_20libxdgdirs_20compare_20v1_200_203_20v1_200_204_201_200_204_20a_202020_2012_2022_3',['&lt;a href=&quot;https://github.com/Jorengarenar/libXDGdirs/compare/v1.0.3...v1.0.4&quot; &gt;1.0.4&lt;/a&gt; - 2020-12-22',['../md_CHANGELOG.html#autotoc_md8',1,'']]],
+  ['github_20com_20jorengarenar_20libxdgdirs_20compare_20v1_200_204_20v1_200_205_201_200_205_20a_202022_2002_2018_4',['&lt;a href=&quot;https://github.com/Jorengarenar/libXDGdirs/compare/v1.0.4...v1.0.5&quot; &gt;1.0.5&lt;/a&gt; - 2022-02-18',['../md_CHANGELOG.html#autotoc_md6',1,'']]],
+  ['github_20com_20jorengarenar_20libxdgdirs_20compare_20v1_200_205_20v1_201_200_201_201_200_20a_202022_2004_2027_5',['&lt;a href=&quot;https://github.com/Jorengarenar/libXDGdirs/compare/v1.0.5...v1.1.0&quot; &gt;1.1.0&lt;/a&gt; - 2022-04-27',['../md_CHANGELOG.html#autotoc_md4',1,'']]],
+  ['github_20com_20jorengarenar_20libxdgdirs_20compare_20v1_201_200_20v1_201_201_201_201_201_20a_202023_2011_2011_6',['&lt;a href=&quot;https://github.com/Jorengarenar/libXDGdirs/compare/v1.1.0...v1.1.1&quot; &gt;1.1.1&lt;/a&gt; - 2023-11-11',['../md_CHANGELOG.html#autotoc_md2',1,'']]],
+  ['github_20com_20jorengarenar_20libxdgdirs_20compare_20v1_201_201_20head_7',['&lt;a href=&quot;https://github.com/Jorengarenar/libXDGdirs/compare/v1.1.1...HEAD&quot;',['../md_CHANGELOG.html#autotoc_md1',1,'']]],
+  ['github_20com_20jorengarenar_20libxdgdirs_20discussions_20discussions_20a_8',['Ask questions using &lt;a href=&quot;https://github.com/Jorengarenar/libXDGdirs/discussions&quot; &gt;Discussions&lt;/a&gt;',['../md_CONTRIBUTING.html#autotoc_md25',1,'']]],
+  ['github_20com_20jorengarenar_20libxdgdirs_20issues_20issues_20a_9',['Report bugs using &lt;a href=&quot;https://github.com/Jorengarenar/libXDGdirs/issues&quot; &gt;Issues&lt;/a&gt;',['../md_CONTRIBUTING.html#autotoc_md26',1,'']]],
+  ['github_20com_20jorengarenar_20libxdgdirs_20releases_20tag_20v1_200_200_201_200_200_20a_202020_2012_2020_10',['&lt;a href=&quot;https://github.com/Jorengarenar/libXDGdirs/releases/tag/v1.0.0&quot; &gt;1.0.0&lt;/a&gt; - 2020-12-20',['../md_CHANGELOG.html#autotoc_md21',1,'']]]
 ];
