@@ -1,3 +1,6 @@
 /// @example compilation.dox
-/// Compile your program passining @c -lXDGdirs
-gcc main.c -o app -lXDGdirs
+# Compile your program passing -lXDGdirs:
+cc main.c -o app -lXDGdirs
+
+# or use pkg-config:
+eval cc main.c $(pkg-config --cflags --libs libXDGdirs)

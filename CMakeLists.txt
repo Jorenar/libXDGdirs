@@ -6,6 +6,7 @@ string(REGEX MATCH "#define XDGDIRS_VER \"([0-9]+.[0-9]+.[0-9]+)\"" _ "${temp}")
 set(XDGDIRS_VER "${CMAKE_MATCH_1}")
 
 project(libXDGdirs
+  DESCRIPTION "An implementation of XDG Base Directory Specification"
   VERSION "${XDGDIRS_VER}"
   LANGUAGES C)
 
@@ -34,6 +35,9 @@ set(CMAKE_C_FLAGS_RELEASE "-O2 -DNDEBUG")
 
 add_subdirectory(src/)
 add_subdirectory(docs/)
+
+configure_file(${CMAKE_PROJECT_NAME}.pc.in
+  lib/pkgconfig/${CMAKE_PROJECT_NAME}.pc @ONLY)
 
 if(CMAKE_BUILD_TYPE STREQUAL "Debug")
   include(CTest)

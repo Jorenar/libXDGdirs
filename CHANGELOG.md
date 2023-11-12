@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- pkg-config file
+
 ## [1.1.1] - 2023-11-11
 
 ### Fixed
@@ -54,7 +58,7 @@ Updated to XDG Base Directory Specification version 0.8
 ### Changed
 
 - Rename `LIB_NAME` to `XDGDIRS` in CMakeLists.txt
-- Use `${PROJECT_VERSION}` instead of `${CMAKE_PROJECT_VERSION}"`
+- Use `${PROJECT_VERSION}` instead of `${CMAKE_PROJECT_VERSION}`
 
 ### Fixed
 
