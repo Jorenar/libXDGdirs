@@ -6,6 +6,10 @@ div.line {
   min-height: 1.2em;
 }
 
+div.fragment > .line:first-child:empty {
+  display: none;
+}
+
 code {
   padding: 0 0.1em;
 }

@@ -27,8 +27,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libXDGdirs<span id="projectnumber">&#160;v1.1.1-1-g57a695f</span>
+   <div id="projectname">libXDGdirs<span id="projectnumber">&#160;v1.1.1-2-g54a653b</span>
    </div>
+   <div id="projectbrief">An implementation of XDG Base Directory Specification</div>
   </td>
  </tr>
  </tbody>
@@ -94,9 +95,12 @@ $(document).ready(function(){initNavTree('compilation_8dox-example.html',''); in
   <div class="headertitle"><div class="title">compilation.dox</div></div>
 </div><!--header-->
 <div class="contents">
-<p>Compile your program passining <code>-lXDGdirs</code> </p>
 <div class="fragment"><div class="line"> </div>
-<div class="line">gcc <a id="a0" name="a0"></a><a class="code hl_function" href="test_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>.c -o app -lXDGdirs</div>
+<div class="line"><span class="preprocessor"># Compile your program passing -lXDGdirs:</span></div>
+<div class="line">cc <a id="a0" name="a0"></a><a class="code hl_function" href="test_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>.c -o app -lXDGdirs</div>
+<div class="line"> </div>
+<div class="line"><span class="preprocessor"># or use pkg-config:</span></div>
+<div class="line">eval cc <a class="code hl_function" href="test_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>.c $(pkg-config --cflags --libs libXDGdirs)</div>
 <div class="ttc" id="atest_8c_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="test_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> <a href="test_8c_source.html#l00004">test.c:4</a></div></div>
 </div><!-- fragment --> </div><!-- contents -->
 </div><!-- doc-content -->
