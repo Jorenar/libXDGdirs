@@ -15,10 +15,13 @@ jobs:
       - name: Install Doxygen
         run: |
           ver="1.9.8"
+          dir="$PWD"
+          cd "${TMPDIR:-/tmp}"
           curl -OL https://www.doxygen.nl/files/doxygen-"$ver".linux.bin.tar.gz
           tar xvzf doxygen-"$ver".linux.bin.tar.gz
           cd doxygen-"$ver"
           sudo make install
+          cd "$dir"
       - name: CMake
         run: cmake -B build -H. -DCMAKE_BUILD_TYPE=Release
       - name: Make docs
