@@ -1,0 +1,14 @@
+#ifndef XDGDIRS_VER_H_
+#define XDGDIRS_VER_H_
+
+/** @def XDGDIRS_VER
+ *  @brief Version of libXDGdirs
+ *  @details
+ *    Adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html)
+ */
+#define XDGDIRS_VER "@XDGDIRS_VERSION@"
+
+/// Version of XDG Base Directory specification implemented in this library
+#define XDGBDS_VER "0.8"
+
+#endif // XDGDIRS_VER_H_

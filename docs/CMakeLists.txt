@@ -8,11 +8,14 @@ if(DOXYGEN_FOUND)
     */extern/*
   )
 
-  execute_process(
-    COMMAND git describe --always --dirty
-    OUTPUT_STRIP_TRAILING_WHITESPACE
-    OUTPUT_VARIABLE DOXYGEN_PROJECT_NUMBER
-  )
+  find_package(Git)
+  if(GIT_EXECUTABLE)
+    execute_process(
+      COMMAND ${GIT_EXECUTABLE} describe --tags --dirty --match "v*"
+      OUTPUT_STRIP_TRAILING_WHITESPACE
+      OUTPUT_VARIABLE DOXYGEN_PROJECT_NUMBER
+    )
+  endif()
 
   if(NOT CMAKE_BUILD_TYPE STREQUAL "Debug")
     list(APPEND DOXYGEN_EXCLUDE_PATTERNS */src/xdgdirs.c)
