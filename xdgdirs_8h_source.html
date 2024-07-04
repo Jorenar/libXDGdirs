@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libXDGdirs<span id="projectnumber">&#160;v1.1.1-5-g885e902</span>
+   <div id="projectname">libXDGdirs<span id="projectnumber">&#160;v1.1.1-6-g417fc99</span>
    </div>
    <div id="projectbrief">An implementation of XDG Base Directory Specification</div>
   </td>
@@ -100,62 +100,66 @@ $(document).ready(function(){initNavTree('xdgdirs_8h_source.html',''); initResiz
   <div class="headertitle"><div class="title">xdgdirs.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="xdgdirs_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef XDGDIRS_H_</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define XDGDIRS_H_</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#ifdef __cplusplus</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#endif</span></div>
+<a href="xdgdirs_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* SPDX-License-Identifier: MIT</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment"> * Copyright 2020-2024 Jorengarenar</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment"> */</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#ifndef XDGDIRS_H_</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#define XDGDIRS_H_</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;stddef.h&gt;</span></div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="xdgdirs__ver_8h.html">xdgdirs_ver.h</a>&quot;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
-<div class="foldopen" id="foldopen00013" data-start="{" data-end="};">
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="structxdgDirsList__t.html">   13</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structxdgDirsList__t.html">xdgDirsList_t</a> {</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="structxdgDirsList__t.html#a92dbe4ee69a22e26818cf4c06c800680">   14</a></span>    <span class="keyword">const</span> <span class="keywordtype">char</span>*  <a class="code hl_variable" href="structxdgDirsList__t.html#a92dbe4ee69a22e26818cf4c06c800680">raw</a>;  </div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="structxdgDirsList__t.html#a25ff8c19ed66a713a8723ed5602c3228">   15</a></span>    <span class="keyword">const</span> <span class="keywordtype">char</span>** <a class="code hl_variable" href="structxdgDirsList__t.html#a25ff8c19ed66a713a8723ed5602c3228">list</a>; </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="structxdgDirsList__t.html#a5cede8325a3046b6418934e339796221">   16</a></span>    <span class="keywordtype">size_t</span> <a class="code hl_variable" href="structxdgDirsList__t.html#a5cede8325a3046b6418934e339796221">size</a>;       </div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>};</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;stddef.h&gt;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &quot;<a class="code" href="xdgdirs__ver_8h.html">xdgdirs_ver.h</a>&quot;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="foldopen" id="foldopen00017" data-start="{" data-end="};">
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="structxdgDirsList__t.html">   17</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structxdgDirsList__t.html">xdgDirsList_t</a> {</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="structxdgDirsList__t.html#a92dbe4ee69a22e26818cf4c06c800680">   18</a></span>    <span class="keyword">const</span> <span class="keywordtype">char</span>*  <a class="code hl_variable" href="structxdgDirsList__t.html#a92dbe4ee69a22e26818cf4c06c800680">raw</a>;  </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="structxdgDirsList__t.html#a25ff8c19ed66a713a8723ed5602c3228">   19</a></span>    <span class="keyword">const</span> <span class="keywordtype">char</span>** <a class="code hl_variable" href="structxdgDirsList__t.html#a25ff8c19ed66a713a8723ed5602c3228">list</a>; </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="structxdgDirsList__t.html#a5cede8325a3046b6418934e339796221">   20</a></span>    <span class="keywordtype">size_t</span> <a class="code hl_variable" href="structxdgDirsList__t.html#a5cede8325a3046b6418934e339796221">size</a>;       </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>};</div>
 </div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="xdgdirs_8h.html#a682ed7e50a1285f00448b8008b6b896b">   19</a></span><span class="keyword">typedef</span> <span class="keyword">const</span> <span class="keyword">struct </span><a class="code hl_struct" href="structxdgDirsList__t.html">xdgDirsList_t</a> <a class="code hl_struct" href="structxdgDirsList__t.html">xdgDirsList</a>;</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="group__CACHE__MANAGEMENT.html#gaf8a1bff63988627051e8a4713a3d7d55">   33</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="group__CACHE__MANAGEMENT.html#gaf8a1bff63988627051e8a4713a3d7d55">xdgDirs_init</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="group__CACHE__MANAGEMENT.html#gadf928eaa88ee9c227b45965a4d77a172">   41</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="group__CACHE__MANAGEMENT.html#gadf928eaa88ee9c227b45965a4d77a172">xdgDirs_clear</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="group__CACHE__MANAGEMENT.html#ga872cae703c64cc2e5559b848597bc3fb">   47</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="group__CACHE__MANAGEMENT.html#ga872cae703c64cc2e5559b848597bc3fb">xdgDirs_refresh</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="xdgdirs_8h.html#a682ed7e50a1285f00448b8008b6b896b">   23</a></span><span class="keyword">typedef</span> <span class="keyword">const</span> <span class="keyword">struct </span><a class="code hl_struct" href="structxdgDirsList__t.html">xdgDirsList_t</a> <a class="code hl_struct" href="structxdgDirsList__t.html">xdgDirsList</a>;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="group__CACHE__MANAGEMENT.html#gaf8a1bff63988627051e8a4713a3d7d55">   37</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="group__CACHE__MANAGEMENT.html#gaf8a1bff63988627051e8a4713a3d7d55">xdgDirs_init</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="group__CACHE__MANAGEMENT.html#gadf928eaa88ee9c227b45965a4d77a172">   45</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="group__CACHE__MANAGEMENT.html#gadf928eaa88ee9c227b45965a4d77a172">xdgDirs_clear</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="group__CACHE__MANAGEMENT.html#ga872cae703c64cc2e5559b848597bc3fb">   51</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="group__CACHE__MANAGEMENT.html#ga872cae703c64cc2e5559b848597bc3fb">xdgDirs_refresh</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="group__USER__DIRS.html#gab92a025b7641e324e64b677accbed108">   63</a></span><span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_function" href="group__USER__DIRS.html#gab92a025b7641e324e64b677accbed108">xdgDataHome</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno"><a class="line" href="group__USER__DIRS.html#ga806e455a44088e58a49e953054cf9002">   70</a></span><span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_function" href="group__USER__DIRS.html#ga806e455a44088e58a49e953054cf9002">xdgStateHome</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno"><a class="line" href="group__USER__DIRS.html#ga6dd641a21cd2b311e3f27f48a155dd12">   77</a></span><span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_function" href="group__USER__DIRS.html#ga6dd641a21cd2b311e3f27f48a155dd12">xdgConfigHome</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno"><a class="line" href="group__USER__DIRS.html#ga666a55084c6a5498e2bf580f01b8d33f">   84</a></span><span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_function" href="group__USER__DIRS.html#ga666a55084c6a5498e2bf580f01b8d33f">xdgCacheHome</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno"><a class="line" href="group__USER__DIRS.html#ga460249f9784de45dc896a865defffb1e">   92</a></span><span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_function" href="group__USER__DIRS.html#ga460249f9784de45dc896a865defffb1e">xdgRuntimeDir</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="group__USER__DIRS.html#gab92a025b7641e324e64b677accbed108">   67</a></span><span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_function" href="group__USER__DIRS.html#gab92a025b7641e324e64b677accbed108">xdgDataHome</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno"><a class="line" href="group__USER__DIRS.html#ga806e455a44088e58a49e953054cf9002">   74</a></span><span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_function" href="group__USER__DIRS.html#ga806e455a44088e58a49e953054cf9002">xdgStateHome</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno"><a class="line" href="group__USER__DIRS.html#ga6dd641a21cd2b311e3f27f48a155dd12">   81</a></span><span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_function" href="group__USER__DIRS.html#ga6dd641a21cd2b311e3f27f48a155dd12">xdgConfigHome</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno"><a class="line" href="group__USER__DIRS.html#ga666a55084c6a5498e2bf580f01b8d33f">   88</a></span><span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_function" href="group__USER__DIRS.html#ga666a55084c6a5498e2bf580f01b8d33f">xdgCacheHome</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno"><a class="line" href="group__USER__DIRS.html#ga460249f9784de45dc896a865defffb1e">   96</a></span><span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_function" href="group__USER__DIRS.html#ga460249f9784de45dc896a865defffb1e">xdgRuntimeDir</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span> </div>
 <div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span> </div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno"><a class="line" href="group__SYS__DIRS.html#gacde1875a261e6e8255577fda630d7b19">  108</a></span><a class="code hl_struct" href="structxdgDirsList__t.html">xdgDirsList</a>* <a class="code hl_function" href="group__SYS__DIRS.html#gacde1875a261e6e8255577fda630d7b19">xdgDataDirs</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span> </div>
-<div class="line"><a id="l00116" name="l00116"></a><span class="lineno"><a class="line" href="group__SYS__DIRS.html#ga110d48d898cba70b5744dfffb6de63a4">  116</a></span><a class="code hl_struct" href="structxdgDirsList__t.html">xdgDirsList</a>* <a class="code hl_function" href="group__SYS__DIRS.html#ga110d48d898cba70b5744dfffb6de63a4">xdgConfigDirs</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span> </div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span> </div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno"><a class="line" href="group__VARIABLE__GETTERS.html#ga9018d69481ebcc7c6adaab6a5096981d">  127</a></span><span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_function" href="group__VARIABLE__GETTERS.html#ga9018d69481ebcc7c6adaab6a5096981d">xdgCustomVar</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* custom);</div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span> </div>
-<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span> </div>
-<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span><span class="preprocessor">#ifdef __cplusplus</span></div>
-<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>} <span class="comment">// extern &quot;C&quot;</span></div>
-<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno"><a class="line" href="group__SYS__DIRS.html#gacde1875a261e6e8255577fda630d7b19">  112</a></span><a class="code hl_struct" href="structxdgDirsList__t.html">xdgDirsList</a>* <a class="code hl_function" href="group__SYS__DIRS.html#gacde1875a261e6e8255577fda630d7b19">xdgDataDirs</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span> </div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno"><a class="line" href="group__SYS__DIRS.html#ga110d48d898cba70b5744dfffb6de63a4">  120</a></span><a class="code hl_struct" href="structxdgDirsList__t.html">xdgDirsList</a>* <a class="code hl_function" href="group__SYS__DIRS.html#ga110d48d898cba70b5744dfffb6de63a4">xdgConfigDirs</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span> </div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span> </div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno"><a class="line" href="group__VARIABLE__GETTERS.html#ga9018d69481ebcc7c6adaab6a5096981d">  131</a></span><span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_function" href="group__VARIABLE__GETTERS.html#ga9018d69481ebcc7c6adaab6a5096981d">xdgCustomVar</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* custom);</div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span> </div>
 <div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span> </div>
-<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span><span class="preprocessor">#endif </span><span class="comment">// XDGDIRS_H_</span></div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>} <span class="comment">// extern &quot;C&quot;</span></div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span> </div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span><span class="preprocessor">#endif </span><span class="comment">// XDGDIRS_H_</span></div>
 <div class="ttc" id="agroup__CACHE__MANAGEMENT_html_ga872cae703c64cc2e5559b848597bc3fb"><div class="ttname"><a href="group__CACHE__MANAGEMENT.html#ga872cae703c64cc2e5559b848597bc3fb">xdgDirs_refresh</a></div><div class="ttdeci">void xdgDirs_refresh(void)</div><div class="ttdoc">Read environment variables again.</div></div>
 <div class="ttc" id="agroup__CACHE__MANAGEMENT_html_gadf928eaa88ee9c227b45965a4d77a172"><div class="ttname"><a href="group__CACHE__MANAGEMENT.html#gadf928eaa88ee9c227b45965a4d77a172">xdgDirs_clear</a></div><div class="ttdeci">void xdgDirs_clear(void)</div><div class="ttdoc">Clear cached data.</div></div>
 <div class="ttc" id="agroup__CACHE__MANAGEMENT_html_gaf8a1bff63988627051e8a4713a3d7d55"><div class="ttname"><a href="group__CACHE__MANAGEMENT.html#gaf8a1bff63988627051e8a4713a3d7d55">xdgDirs_init</a></div><div class="ttdeci">int xdgDirs_init(void)</div><div class="ttdoc">Explicitly read variables before first use.</div></div>
@@ -167,10 +171,10 @@ $(document).ready(function(){initNavTree('xdgdirs_8h_source.html',''); initResiz
 <div class="ttc" id="agroup__USER__DIRS_html_ga806e455a44088e58a49e953054cf9002"><div class="ttname"><a href="group__USER__DIRS.html#ga806e455a44088e58a49e953054cf9002">xdgStateHome</a></div><div class="ttdeci">const char * xdgStateHome(void)</div><div class="ttdoc">Value of $XDG_STATE_HOME.</div></div>
 <div class="ttc" id="agroup__USER__DIRS_html_gab92a025b7641e324e64b677accbed108"><div class="ttname"><a href="group__USER__DIRS.html#gab92a025b7641e324e64b677accbed108">xdgDataHome</a></div><div class="ttdeci">const char * xdgDataHome(void)</div><div class="ttdoc">Value of $XDG_DATA_HOME.</div></div>
 <div class="ttc" id="agroup__VARIABLE__GETTERS_html_ga9018d69481ebcc7c6adaab6a5096981d"><div class="ttname"><a href="group__VARIABLE__GETTERS.html#ga9018d69481ebcc7c6adaab6a5096981d">xdgCustomVar</a></div><div class="ttdeci">const char * xdgCustomVar(const char *custom)</div><div class="ttdoc">User definied custom XDG variables.</div></div>
-<div class="ttc" id="astructxdgDirsList__t_html"><div class="ttname"><a href="structxdgDirsList__t.html">xdgDirsList_t</a></div><div class="ttdoc">Container for environment variables which are colon separated lists.</div><div class="ttdef"><b>Definition</b> <a href="xdgdirs_8h_source.html#l00013">xdgdirs.h:13</a></div></div>
-<div class="ttc" id="astructxdgDirsList__t_html_a25ff8c19ed66a713a8723ed5602c3228"><div class="ttname"><a href="structxdgDirsList__t.html#a25ff8c19ed66a713a8723ed5602c3228">xdgDirsList_t::list</a></div><div class="ttdeci">const char ** list</div><div class="ttdoc">Null terminated array containing entries from environment variable.</div><div class="ttdef"><b>Definition</b> <a href="xdgdirs_8h_source.html#l00015">xdgdirs.h:15</a></div></div>
-<div class="ttc" id="astructxdgDirsList__t_html_a5cede8325a3046b6418934e339796221"><div class="ttname"><a href="structxdgDirsList__t.html#a5cede8325a3046b6418934e339796221">xdgDirsList_t::size</a></div><div class="ttdeci">size_t size</div><div class="ttdoc">Number of entries in environment variable.</div><div class="ttdef"><b>Definition</b> <a href="xdgdirs_8h_source.html#l00016">xdgdirs.h:16</a></div></div>
-<div class="ttc" id="astructxdgDirsList__t_html_a92dbe4ee69a22e26818cf4c06c800680"><div class="ttname"><a href="structxdgDirsList__t.html#a92dbe4ee69a22e26818cf4c06c800680">xdgDirsList_t::raw</a></div><div class="ttdeci">const char * raw</div><div class="ttdoc">Raw value of environment variable.</div><div class="ttdef"><b>Definition</b> <a href="xdgdirs_8h_source.html#l00014">xdgdirs.h:14</a></div></div>
+<div class="ttc" id="astructxdgDirsList__t_html"><div class="ttname"><a href="structxdgDirsList__t.html">xdgDirsList_t</a></div><div class="ttdoc">Container for environment variables which are colon separated lists.</div><div class="ttdef"><b>Definition</b> <a href="xdgdirs_8h_source.html#l00017">xdgdirs.h:17</a></div></div>
+<div class="ttc" id="astructxdgDirsList__t_html_a25ff8c19ed66a713a8723ed5602c3228"><div class="ttname"><a href="structxdgDirsList__t.html#a25ff8c19ed66a713a8723ed5602c3228">xdgDirsList_t::list</a></div><div class="ttdeci">const char ** list</div><div class="ttdoc">Null terminated array containing entries from environment variable.</div><div class="ttdef"><b>Definition</b> <a href="xdgdirs_8h_source.html#l00019">xdgdirs.h:19</a></div></div>
+<div class="ttc" id="astructxdgDirsList__t_html_a5cede8325a3046b6418934e339796221"><div class="ttname"><a href="structxdgDirsList__t.html#a5cede8325a3046b6418934e339796221">xdgDirsList_t::size</a></div><div class="ttdeci">size_t size</div><div class="ttdoc">Number of entries in environment variable.</div><div class="ttdef"><b>Definition</b> <a href="xdgdirs_8h_source.html#l00020">xdgdirs.h:20</a></div></div>
+<div class="ttc" id="astructxdgDirsList__t_html_a92dbe4ee69a22e26818cf4c06c800680"><div class="ttname"><a href="structxdgDirsList__t.html#a92dbe4ee69a22e26818cf4c06c800680">xdgDirsList_t::raw</a></div><div class="ttdeci">const char * raw</div><div class="ttdoc">Raw value of environment variable.</div><div class="ttdef"><b>Definition</b> <a href="xdgdirs_8h_source.html#l00018">xdgdirs.h:18</a></div></div>
 <div class="ttc" id="axdgdirs__ver_8h_html"><div class="ttname"><a href="xdgdirs__ver_8h.html">xdgdirs_ver.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
