@@ -1,3 +1,7 @@
+/* SPDX-License-Identifier: MIT
+ * Copyright 2020-2024 Jorengarenar
+ */
+
 #include "xdgdirs.h"
 
 #include <stdarg.h>

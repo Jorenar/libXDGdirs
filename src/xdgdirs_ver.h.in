@@ -1,3 +1,7 @@
+/* SPDX-License-Identifier: MIT
+ * Copyright 2024 Jorengarenar
+ */
+
 #ifndef XDGDIRS_VER_H_
 #define XDGDIRS_VER_H_
 
