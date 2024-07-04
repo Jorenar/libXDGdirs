@@ -6,9 +6,8 @@ var indexSectionsWithContent =
   3: "mx",
   4: "lrs",
   5: "x",
-  6: "x",
-  7: "cdemrsuv",
-  8: "clt"
+  6: "cdemrsuv",
+  7: "clt"
 };
 
 var indexSectionNames =
@@ -19,9 +18,8 @@ var indexSectionNames =
   3: "functions",
   4: "variables",
   5: "typedefs",
-  6: "defines",
-  7: "groups",
-  8: "pages"
+  6: "groups",
+  7: "pages"
 };
 
 var indexSectionLabels =
@@ -32,8 +30,7 @@ var indexSectionLabels =
   3: "Functions",
   4: "Variables",
   5: "Typedefs",
-  6: "Macros",
-  7: "Modules",
-  8: "Pages"
+  6: "Modules",
+  7: "Pages"
 };
 
