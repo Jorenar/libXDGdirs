@@ -2,7 +2,7 @@ find_package(Doxygen)
 if(NOT DOXYGEN_FOUND)
   message("Doxygen needs to be installed to generate documentation")
   return()
-endif(DOXYGEN_FOUND)
+endif(NOT DOXYGEN_FOUND)
 
 set(DOXYGEN_QUIET YES)
 
