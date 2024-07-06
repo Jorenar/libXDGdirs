@@ -1,4 +1,5 @@
-# Changelog
+Changelog
+=========
 
 All notable changes to this project will be documented in this file.
 
@@ -6,40 +7,40 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
-
 ### Added
 
 - pkg-config file
 
-## [1.1.1] - 2023-11-11
+### Changed
 
+- Use Git tags for generating version header
+
+## [1.1.1] - 2023-11-11
 ### Fixed
 
 - Missing `void` params
 
 ## [1.1.0] - 2022-04-27
-
-Updated to XDG Base Directory Specification version 0.8
-
 ### Added
 
 - `XDG_STATE_HOME`
 
-## [1.0.5] - 2022-02-18
+### Changed
 
+- Updated to XDG Base Directory Specification version 0.8
+
+## [1.0.5] - 2022-02-18
 ### Fixed
 
 - Define undefined `XDGDIRS_VER`
 - Return value of `xdgDirs_init()`
 
 ## [1.0.4] - 2020-12-22
-
 ### Fixed
 
 - `xdgDirsList` in C++
 
 ## [1.0.3] - 2020-12-22
-
 ### Changed
 
 - Use `vsnprintf()` in `xdgDirs_getenv()`
@@ -50,7 +51,6 @@ Updated to XDG Base Directory Specification version 0.8
 - Missing `extern C`
 
 ## [1.0.2] - 2020-12-21
-
 ### Added
 
 - LGTM and CodeFactor project badges in README
@@ -65,7 +65,6 @@ Updated to XDG Base Directory Specification version 0.8
 - Assignment of value instead of comparison (src/xdgdirs.c:35)
 
 ## [1.0.1] - 2020-12-20
-
 ### Added
 
 - LGTM configuration
@@ -79,7 +78,6 @@ Updated to XDG Base Directory Specification version 0.8
 - Check if `fmt` in `xdgDirs_getenv()` is `NULL`
 
 ## [1.0.0] - 2020-12-20
-
 ### Added
 
 - Source code of library
@@ -87,6 +85,7 @@ Updated to XDG Base Directory Specification version 0.8
 - Documentation
 - README, CHANGELOG and AUTHORS
 
+##
 [unreleased]: https://github.com/Jorengarenar/libXDGdirs/compare/v1.1.1...HEAD
 [1.1.1]: https://github.com/Jorengarenar/libXDGdirs/compare/v1.1.0...v1.1.1
 [1.1.0]: https://github.com/Jorengarenar/libXDGdirs/compare/v1.0.5...v1.1.0
