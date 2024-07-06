@@ -9,5 +9,9 @@ add_custom_target(version
 )
 add_dependencies(${XDGDIRS} version)
 
-set_target_properties("${XDGDIRS}" PROPERTIES PUBLIC_HEADER "src/xdgdirs.h")
-set_target_properties("${XDGDIRS}" PROPERTIES PUBLIC_HEADER "src/xdgdirs_ver.h")
+file(GLOB_RECURSE INCLUDE_FILES "*.h")
+
+set_target_properties("${XDGDIRS}"
+  PROPERTIES
+  PUBLIC_HEADER "${INCLUDE_FILES}"
+)
