@@ -1,7 +1,7 @@
 libXDGdirs
 ==========
 
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/547fc2ec9e314ad593c14d84a7d4fab5)](https://www.codacy.com/gh/Jorengarenar/libXDGdirs/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Jorengarenar/libXDGdirs&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/547fc2ec9e314ad593c14d84a7d4fab5)](https://app.codacy.com/gh/Jorengarenar/libXDGdirs/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 [![CodeFactor](https://www.codefactor.io/repository/github/jorengarenar/libxdgdirs/badge)](https://www.codefactor.io/repository/github/jorengarenar/libxdgdirs)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Jorengarenar_libXDGdirs&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Jorengarenar_libXDGdirs)
 [![License](https://img.shields.io/github/license/Jorengarenar/libXDGdirs)](https://github.com/Jorengarenar/libXDGdirs/blob/master/LICENSE)
