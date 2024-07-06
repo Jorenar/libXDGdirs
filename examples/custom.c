@@ -9,9 +9,9 @@
 #include <stdio.h>
 #include <xdgdirs.h>
 
-int main()
+int main(void)
 {
-    printf("XDG_MUSIC_DIR: %s", xdgCustomVar("MUSIC") );
+    printf("XDG_MUSIC_DIR: %s\n", xdgCustomVar("MUSIC"));
     return 0;
 }
 /// @endcond
