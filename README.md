@@ -17,7 +17,7 @@ cache, configuration, data, state and runtime files.
 All those locations have corresponding `XDG_*` environment variables.
 
 All paths set in them must be absolute.  
-If a relative path is encountered, the path is consider invalid and `NULL` is assigned.
+If a relative path is encountered, the path is considered invalid and `NULL` is assigned.
 
 ## Build
 
