@@ -79,7 +79,7 @@ static void xdgDirs_genList(struct xdgDirsList_t* li)
 
     li->list = malloc((li->size + 1) * sizeof(*(li->list)));
 
-    char* v = strtok(raw, ":");
+    const char* v = strtok(raw, ":");
     for (size_t i = 0; i < li->size && v != NULL; ++i) {
         li->list[i] = xdgDirs_strdup(v);
         v = strtok(NULL, ":");
