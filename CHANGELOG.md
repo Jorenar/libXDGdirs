@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Use Git hooks for updating version in header
+- Update badges in README
 
 ### Removed
 

@@ -1,9 +1,9 @@
 libXDGdirs
 ==========
 
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/547fc2ec9e314ad593c14d84a7d4fab5)](https://app.codacy.com/gh/Jorengarenar/libXDGdirs/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
-[![CodeFactor](https://www.codefactor.io/repository/github/jorengarenar/libxdgdirs/badge)](https://www.codefactor.io/repository/github/jorengarenar/libxdgdirs)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Jorengarenar_libXDGdirs&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Jorengarenar_libXDGdirs)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/547fc2ec9e314ad593c14d84a7d4fab5)](https://app.codacy.com/gh/Jorenar/libXDGdirs/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+[![CodeFactor](https://www.codefactor.io/repository/github/jorenar/libxdgdirs/badge)](https://www.codefactor.io/repository/github/jorenar/libxdgdirs)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Jorenar_libXDGdirs&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Jorenar_libXDGdirs)
 [![License](https://img.shields.io/github/license/Jorengarenar/libXDGdirs)](https://github.com/Jorengarenar/libXDGdirs/blob/master/LICENSE)
 [![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/Jorengarenar/libXDGdirs?include_prereleases&sort=semver)](https://github.com/Jorengarenar/libXDGdirs/releases)
 [![AUR version](https://img.shields.io/aur/version/libxdgdirs)](https://aur.archlinux.org/packages/libxdgdirs)
