@@ -16,7 +16,7 @@ extern "C" {
  *  @details
  *    Adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html)
  */
-#define XDGDIRS_VER "1.1.2-0-master"
+#define XDGDIRS_VER "1.1.3"
 
 /// Version of XDG Base Directory specification implemented in this library
 #define XDGBDS_VER "0.8"
