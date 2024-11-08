@@ -11,7 +11,15 @@ extern "C" {
 
 #include <stddef.h>
 
-#include "xdgdirs_ver.h"
+/** @def XDGDIRS_VER
+ *  @brief Version of libXDGdirs
+ *  @details
+ *    Adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html)
+ */
+#define XDGDIRS_VER "1.1.2-0-master"
+
+/// Version of XDG Base Directory specification implemented in this library
+#define XDGBDS_VER "0.8"
 
 /// @brief Container for environment variables which are colon separated lists
 struct xdgDirsList_t {

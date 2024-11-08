@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+
+if ! git diff --quiet --cached src/*; then
+    if ! git diff --cached -U0 CMakeLists.txt | grep -q '  VERSION'; then
+        ver="$(git describe --always --long | sed 's/^v//')"
+        ver="${ver%-*}-$(git branch --show-current)"
+        echo "Updating version macro to $ver"
+        sed -i 's/#define XDGDIRS_VER ".*"/#define XDGDIRS_VER "'"$ver"'"/' src/xdgdirs.h
+        git add src/xdgdirs.h
+    fi
+fi
