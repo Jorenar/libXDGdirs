@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['fixed_0',['fixed',['../md_CHANGELOG.html#autotoc_md5',1,'Fixed'],['../md_CHANGELOG.html#autotoc_md10',1,'Fixed'],['../md_CHANGELOG.html#autotoc_md12',1,'Fixed'],['../md_CHANGELOG.html#autotoc_md15',1,'Fixed'],['../md_CHANGELOG.html#autotoc_md19',1,'Fixed'],['../md_CHANGELOG.html#autotoc_md23',1,'Fixed']]]
+  ['fixed_0',['fixed',['../md_CHANGELOG.html#autotoc_md7',1,'Fixed'],['../md_CHANGELOG.html#autotoc_md12',1,'Fixed'],['../md_CHANGELOG.html#autotoc_md14',1,'Fixed'],['../md_CHANGELOG.html#autotoc_md17',1,'Fixed'],['../md_CHANGELOG.html#autotoc_md21',1,'Fixed'],['../md_CHANGELOG.html#autotoc_md25',1,'Fixed']]]
 ];

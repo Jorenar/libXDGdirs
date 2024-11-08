@@ -1,15 +1,19 @@
 var searchData=
 [
-  ['v1_200_200_201_200_200_20a_202020_2012_2020_0',['&lt;a href=&quot;https://github.com/Jorengarenar/libXDGdirs/releases/tag/v1.0.0&quot; &gt;1.0.0&lt;/a&gt; - 2020-12-20',['../md_CHANGELOG.html#autotoc_md24',1,'']]],
-  ['v1_200_200_20v1_200_201_201_200_201_20a_202020_2012_2020_1',['&lt;a href=&quot;https://github.com/Jorengarenar/libXDGdirs/compare/v1.0.0...v1.0.1&quot; &gt;1.0.1&lt;/a&gt; - 2020-12-20',['../md_CHANGELOG.html#autotoc_md20',1,'']]],
-  ['v1_200_201_20v1_200_202_201_200_202_20a_202020_2012_2021_2',['&lt;a href=&quot;https://github.com/Jorengarenar/libXDGdirs/compare/v1.0.1...v1.0.2&quot; &gt;1.0.2&lt;/a&gt; - 2020-12-21',['../md_CHANGELOG.html#autotoc_md16',1,'']]],
-  ['v1_200_202_20v1_200_203_201_200_203_20a_202020_2012_2022_3',['&lt;a href=&quot;https://github.com/Jorengarenar/libXDGdirs/compare/v1.0.2...v1.0.3&quot; &gt;1.0.3&lt;/a&gt; - 2020-12-22',['../md_CHANGELOG.html#autotoc_md13',1,'']]],
-  ['v1_200_203_20v1_200_204_201_200_204_20a_202020_2012_2022_4',['&lt;a href=&quot;https://github.com/Jorengarenar/libXDGdirs/compare/v1.0.3...v1.0.4&quot; &gt;1.0.4&lt;/a&gt; - 2020-12-22',['../md_CHANGELOG.html#autotoc_md11',1,'']]],
-  ['v1_200_204_20v1_200_205_201_200_205_20a_202022_2002_2018_5',['&lt;a href=&quot;https://github.com/Jorengarenar/libXDGdirs/compare/v1.0.4...v1.0.5&quot; &gt;1.0.5&lt;/a&gt; - 2022-02-18',['../md_CHANGELOG.html#autotoc_md9',1,'']]],
-  ['v1_200_205_20v1_201_200_201_201_200_20a_202022_2004_2027_6',['&lt;a href=&quot;https://github.com/Jorengarenar/libXDGdirs/compare/v1.0.5...v1.1.0&quot; &gt;1.1.0&lt;/a&gt; - 2022-04-27',['../md_CHANGELOG.html#autotoc_md6',1,'']]],
-  ['v1_201_200_20v1_201_201_201_201_201_20a_202023_2011_2011_7',['&lt;a href=&quot;https://github.com/Jorengarenar/libXDGdirs/compare/v1.1.0...v1.1.1&quot; &gt;1.1.1&lt;/a&gt; - 2023-11-11',['../md_CHANGELOG.html#autotoc_md4',1,'']]],
-  ['v1_201_201_20v1_201_202_201_201_202_20a_202024_2007_2006_8',['&lt;a href=&quot;https://github.com/Jorengarenar/libXDGdirs/compare/v1.1.1...v1.1.2&quot; &gt;1.1.2&lt;/a&gt; - 2024-07-06',['../md_CHANGELOG.html#autotoc_md1',1,'']]],
-  ['v1_201_202_20head_9',['&lt;a href=&quot;https://github.com/Jorengarenar/libXDGdirs/compare/v1.1.2...HEAD&quot;',['../md_CHANGELOG.html#autotoc_md0',1,'']]],
-  ['variables_10',['Reading environment variables',['../group__VARIABLE__GETTERS.html',1,'']]],
-  ['ver_2ec_11',['ver.c',['../ver_8c.html',1,'']]]
+  ['xdgbds_5fver_0',['XDGBDS_VER',['../xdgdirs_8h.html#a82ee36bad14cef731e85834dc6fb1b2a',1,'xdgdirs.h']]],
+  ['xdgcachehome_1',['xdgCacheHome',['../group__USER__DIRS.html#ga666a55084c6a5498e2bf580f01b8d33f',1,'xdgdirs.h']]],
+  ['xdgconfigdirs_2',['xdgConfigDirs',['../group__SYS__DIRS.html#ga110d48d898cba70b5744dfffb6de63a4',1,'xdgdirs.h']]],
+  ['xdgconfighome_3',['xdgConfigHome',['../group__USER__DIRS.html#ga6dd641a21cd2b311e3f27f48a155dd12',1,'xdgdirs.h']]],
+  ['xdgcustomvar_4',['xdgCustomVar',['../group__VARIABLE__GETTERS.html#ga9018d69481ebcc7c6adaab6a5096981d',1,'xdgdirs.h']]],
+  ['xdgdatadirs_5',['xdgDataDirs',['../group__SYS__DIRS.html#gacde1875a261e6e8255577fda630d7b19',1,'xdgdirs.h']]],
+  ['xdgdatahome_6',['xdgDataHome',['../group__USER__DIRS.html#gab92a025b7641e324e64b677accbed108',1,'xdgdirs.h']]],
+  ['xdgdirs_2eh_7',['xdgdirs.h',['../xdgdirs_8h.html',1,'']]],
+  ['xdgdirs_5fclear_8',['xdgDirs_clear',['../group__CACHE__MANAGEMENT.html#gadf928eaa88ee9c227b45965a4d77a172',1,'xdgdirs.h']]],
+  ['xdgdirs_5finit_9',['xdgDirs_init',['../group__CACHE__MANAGEMENT.html#gaf8a1bff63988627051e8a4713a3d7d55',1,'xdgdirs.h']]],
+  ['xdgdirs_5frefresh_10',['xdgDirs_refresh',['../group__CACHE__MANAGEMENT.html#ga872cae703c64cc2e5559b848597bc3fb',1,'xdgdirs.h']]],
+  ['xdgdirs_5fver_11',['XDGDIRS_VER',['../xdgdirs_8h.html#a603b85bd9bb84acd8b6ea048faea0cea',1,'xdgdirs.h']]],
+  ['xdgdirslist_12',['xdgDirsList',['../xdgdirs_8h.html#a682ed7e50a1285f00448b8008b6b896b',1,'xdgdirs.h']]],
+  ['xdgdirslist_5ft_13',['xdgDirsList_t',['../structxdgDirsList__t.html',1,'']]],
+  ['xdgruntimedir_14',['xdgRuntimeDir',['../group__USER__DIRS.html#ga460249f9784de45dc896a865defffb1e',1,'xdgdirs.h']]],
+  ['xdgstatehome_15',['xdgStateHome',['../group__USER__DIRS.html#ga806e455a44088e58a49e953054cf9002',1,'xdgdirs.h']]]
 ];

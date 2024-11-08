@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libXDGdirs<span id="projectnumber">&#160;v1.1.2</span>
+   <div id="projectname">libXDGdirs<span id="projectnumber">&#160;v1.1.2-2-g3bcf660</span>
    </div>
    <div id="projectbrief">An implementation of XDG Base Directory Specification</div>
   </td>
@@ -100,103 +100,114 @@ $(document).ready(function(){initNavTree('md_CHANGELOG.html',''); initResizable(
 <h1><a class="anchor" id="autotoc_md0"></a>
 &lt;a href="https://github.com/Jorengarenar/libXDGdirs/compare/v1.1.2...HEAD"</h1>
 <p>&gt;Unreleased </p>
-<h1><a class="anchor" id="autotoc_md1"></a>
-&lt;a href="https://github.com/Jorengarenar/libXDGdirs/compare/v1.1.1...v1.1.2" &gt;1.1.2&lt;/a&gt; - 2024-07-06</h1>
+<h2><a class="anchor" id="autotoc_md1"></a>
+Changed</h2>
+<ul>
+<li>Use Git hooks for updating version in header</li>
+</ul>
 <h2><a class="anchor" id="autotoc_md2"></a>
+Removed</h2>
+<ul>
+<li>AUTHORS file</li>
+<li>CONTRIBUTING.md file</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md3"></a>
+&lt;a href="https://github.com/Jorengarenar/libXDGdirs/compare/v1.1.1...v1.1.2" &gt;1.1.2&lt;/a&gt; - 2024-07-06</h1>
+<h2><a class="anchor" id="autotoc_md4"></a>
 Added</h2>
 <ul>
 <li>pkg-config file</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md3"></a>
+<h2><a class="anchor" id="autotoc_md5"></a>
 Changed</h2>
 <ul>
 <li>Use Git tags for generating version header</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md4"></a>
+<h1><a class="anchor" id="autotoc_md6"></a>
 &lt;a href="https://github.com/Jorengarenar/libXDGdirs/compare/v1.1.0...v1.1.1" &gt;1.1.1&lt;/a&gt; - 2023-11-11</h1>
-<h2><a class="anchor" id="autotoc_md5"></a>
+<h2><a class="anchor" id="autotoc_md7"></a>
 Fixed</h2>
 <ul>
 <li>Missing <code>void</code> params</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md6"></a>
+<h1><a class="anchor" id="autotoc_md8"></a>
 &lt;a href="https://github.com/Jorengarenar/libXDGdirs/compare/v1.0.5...v1.1.0" &gt;1.1.0&lt;/a&gt; - 2022-04-27</h1>
-<h2><a class="anchor" id="autotoc_md7"></a>
+<h2><a class="anchor" id="autotoc_md9"></a>
 Added</h2>
 <ul>
 <li><code>XDG_STATE_HOME</code></li>
 </ul>
-<h2><a class="anchor" id="autotoc_md8"></a>
+<h2><a class="anchor" id="autotoc_md10"></a>
 Changed</h2>
 <ul>
 <li>Updated to XDG Base Directory Specification version 0.8</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md9"></a>
+<h1><a class="anchor" id="autotoc_md11"></a>
 &lt;a href="https://github.com/Jorengarenar/libXDGdirs/compare/v1.0.4...v1.0.5" &gt;1.0.5&lt;/a&gt; - 2022-02-18</h1>
-<h2><a class="anchor" id="autotoc_md10"></a>
+<h2><a class="anchor" id="autotoc_md12"></a>
 Fixed</h2>
 <ul>
 <li>Define undefined <code>XDGDIRS_VER</code></li>
 <li>Return value of <code><a class="el" href="group__CACHE__MANAGEMENT.html#gaf8a1bff63988627051e8a4713a3d7d55" title="Explicitly read variables before first use.">xdgDirs_init()</a></code></li>
 </ul>
-<h1><a class="anchor" id="autotoc_md11"></a>
+<h1><a class="anchor" id="autotoc_md13"></a>
 &lt;a href="https://github.com/Jorengarenar/libXDGdirs/compare/v1.0.3...v1.0.4" &gt;1.0.4&lt;/a&gt; - 2020-12-22</h1>
-<h2><a class="anchor" id="autotoc_md12"></a>
+<h2><a class="anchor" id="autotoc_md14"></a>
 Fixed</h2>
 <ul>
 <li><code>xdgDirsList</code> in C++</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md13"></a>
+<h1><a class="anchor" id="autotoc_md15"></a>
 &lt;a href="https://github.com/Jorengarenar/libXDGdirs/compare/v1.0.2...v1.0.3" &gt;1.0.3&lt;/a&gt; - 2020-12-22</h1>
-<h2><a class="anchor" id="autotoc_md14"></a>
+<h2><a class="anchor" id="autotoc_md16"></a>
 Changed</h2>
 <ul>
 <li>Use <code>vsnprintf()</code> in <code>xdgDirs_getenv()</code></li>
 </ul>
-<h2><a class="anchor" id="autotoc_md15"></a>
+<h2><a class="anchor" id="autotoc_md17"></a>
 Fixed</h2>
 <ul>
 <li>Return from <code>xdgDirs_getenv()</code> after assigning <code>NULL</code></li>
 <li>Missing <code>extern C</code></li>
 </ul>
-<h1><a class="anchor" id="autotoc_md16"></a>
+<h1><a class="anchor" id="autotoc_md18"></a>
 &lt;a href="https://github.com/Jorengarenar/libXDGdirs/compare/v1.0.1...v1.0.2" &gt;1.0.2&lt;/a&gt; - 2020-12-21</h1>
-<h2><a class="anchor" id="autotoc_md17"></a>
+<h2><a class="anchor" id="autotoc_md19"></a>
 Added</h2>
 <ul>
 <li>LGTM and CodeFactor project badges in README</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md18"></a>
+<h2><a class="anchor" id="autotoc_md20"></a>
 Changed</h2>
 <ul>
 <li>Rename <code>LIB_NAME</code> to <code>XDGDIRS</code> in CMakeLists.txt</li>
 <li>Use <code>${PROJECT_VERSION}</code> instead of <code>${CMAKE_PROJECT_VERSION}</code></li>
 </ul>
-<h2><a class="anchor" id="autotoc_md19"></a>
+<h2><a class="anchor" id="autotoc_md21"></a>
 Fixed</h2>
 <ul>
 <li>Assignment of value instead of comparison (src/xdgdirs.c:35)</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md20"></a>
+<h1><a class="anchor" id="autotoc_md22"></a>
 &lt;a href="https://github.com/Jorengarenar/libXDGdirs/compare/v1.0.0...v1.0.1" &gt;1.0.1&lt;/a&gt; - 2020-12-20</h1>
-<h2><a class="anchor" id="autotoc_md21"></a>
+<h2><a class="anchor" id="autotoc_md23"></a>
 Added</h2>
 <ul>
 <li>LGTM configuration</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md22"></a>
+<h2><a class="anchor" id="autotoc_md24"></a>
 Changed</h2>
 <ul>
 <li>Cosmetic change from <code>-pedantic</code> compiler flag to <code>-Wpedantic</code></li>
 </ul>
-<h2><a class="anchor" id="autotoc_md23"></a>
+<h2><a class="anchor" id="autotoc_md25"></a>
 Fixed</h2>
 <ul>
 <li>Check if <code>fmt</code> in <code>xdgDirs_getenv()</code> is <code>NULL</code></li>
 </ul>
-<h1><a class="anchor" id="autotoc_md24"></a>
+<h1><a class="anchor" id="autotoc_md26"></a>
 &lt;a href="https://github.com/Jorengarenar/libXDGdirs/releases/tag/v1.0.0" &gt;1.0.0&lt;/a&gt; - 2020-12-20</h1>
-<h2><a class="anchor" id="autotoc_md25"></a>
+<h2><a class="anchor" id="autotoc_md27"></a>
 Added</h2>
 <ul>
 <li>Source code of library</li>
@@ -204,8 +215,8 @@ Added</h2>
 <li>Documentation</li>
 <li>README, CHANGELOG and AUTHORS</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md26"></a>
-autotoc_md26</h1>
+<h1><a class="anchor" id="autotoc_md28"></a>
+autotoc_md28</h1>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

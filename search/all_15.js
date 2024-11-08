@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['sample_20code_0',['Write bug reports with detail, background, and sample code',['../md_CONTRIBUTING.html#autotoc_md31',1,'']]],
-  ['size_1',['size',['../structxdgDirsList__t.html#a5cede8325a3046b6418934e339796221',1,'xdgDirsList_t']]],
-  ['style_2',['Code style',['../md_CONTRIBUTING.html#autotoc_md32',1,'']]],
-  ['system_20directories_3',['System directories',['../group__SYS__DIRS.html',1,'']]]
+  ['tag_20v1_200_200_201_200_200_20a_202020_2012_2020_0',['&lt;a href=&quot;https://github.com/Jorengarenar/libXDGdirs/releases/tag/v1.0.0&quot; &gt;1.0.0&lt;/a&gt; - 2020-12-20',['../md_CHANGELOG.html#autotoc_md26',1,'']]],
+  ['test_2ec_1',['test.c',['../test_8c.html',1,'']]]
 ];

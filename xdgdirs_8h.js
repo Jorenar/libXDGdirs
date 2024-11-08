@@ -1,6 +1,8 @@
 var xdgdirs_8h =
 [
     [ "xdgDirsList_t", "structxdgDirsList__t.html", "structxdgDirsList__t" ],
+    [ "XDGBDS_VER", "xdgdirs_8h.html#a82ee36bad14cef731e85834dc6fb1b2a", null ],
+    [ "XDGDIRS_VER", "xdgdirs_8h.html#a603b85bd9bb84acd8b6ea048faea0cea", null ],
     [ "xdgDirsList", "xdgdirs_8h.html#a682ed7e50a1285f00448b8008b6b896b", null ],
     [ "xdgCacheHome", "group__USER__DIRS.html#ga666a55084c6a5498e2bf580f01b8d33f", null ],
     [ "xdgConfigDirs", "group__SYS__DIRS.html#ga110d48d898cba70b5744dfffb6de63a4", null ],
