@@ -11,6 +11,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Use Git hooks for updating version in header
 
+### Removed
+
+- AUTHORS file
+- CONTRIBUTING.md file
+
 ## [1.1.2] - 2024-07-06
 ### Added
 
