@@ -20,13 +20,6 @@ if(GIT_EXECUTABLE)
   )
 endif()
 
-execute_process(COMMAND
-  ${CMAKE_COMMAND}
-  -D SRC=${CMAKE_SOURCE_DIR}/src/xdgdirs_ver.h.in
-  -D DST=${CMAKE_SOURCE_DIR}/src/xdgdirs_ver.h
-  -P ${CMAKE_SOURCE_DIR}/src/GenerateVersion.cmake
-)
-
 if(NOT CMAKE_BUILD_TYPE STREQUAL "Debug")
   list(APPEND DOXYGEN_EXCLUDE_PATTERNS */src/xdgdirs.c)
 endif()
