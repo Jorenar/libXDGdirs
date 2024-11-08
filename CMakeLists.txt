@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.16)
 
 project(libXDGdirs
   DESCRIPTION "An implementation of XDG Base Directory Specification"
-  VERSION "1.1.2"
+  VERSION "1.1.3"
   LANGUAGES C)
 
 set(XDGDIRS "XDGdirs")
